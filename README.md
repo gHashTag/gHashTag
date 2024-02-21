@@ -1,5 +1,7 @@
 # Vasilev Dmitrii Vladimirovich 🧑🏻‍🎤
 
+![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
+
 ## Full Stack Developer ☁️  
 
 [Email](mailto:raoffonom@icloud.com?subject=Test)  
