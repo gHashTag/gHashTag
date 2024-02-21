@@ -34,7 +34,7 @@
 
 ## PROFESSIONAL EXPERIENCE 👔
 
-**10/2015 – present LEELA AI**: Founder, Web3 Developer ⚙️
+**10/2015 – present LEELA Chakra AI**: Founder, Web3 Developer ⚙️
 
 Life is a game in which each of us plays a role. This game in India is called Lila, and our Higher Self plays it, creating the whole world of names and forms.
 
