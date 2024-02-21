@@ -4,9 +4,7 @@
 
 ## Full Stack Developer ☁️  
 
-[Email](mailto:raoffonom@icloud.com?subject=Test)  
-[twitter](https://twitter.com/koshasuperstar)  
-+66 (96) 2401-4170‬‬ | Thailand 🌴
+[Email](mailto:raoffonom@icloud.com?subject=Test)  |  [twitter](https://twitter.com/koshasuperstar)  |  +66 (96) 2401-4170‬‬ | Thailand 🌴
 
 
 ## SUMMARY ✍️
