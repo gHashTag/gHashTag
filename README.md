@@ -9,41 +9,39 @@
 
 ## SUMMARY ✍️
 
-● Author of the first React Native and AWS Amplify course in RuNet and member of Amazon's AWS Community Builders program. Actively shares knowledge through various platforms, including a blog on dev.to, articles on itnext.io and on Habr. 📝
+● Pioneer in agent-oriented AI development, founder of NeuroBlogger and NeuroCalls: platforms leveraging intelligent agents and neural networks for media content creation and communication automation. 🤖
 
-● Possesses a wide range of technical skills, including the use of React Native, Apollo, Redux, GraphQL, as well as managerial skills in the field of project management. 💪  
+● Author of the first React Native and AWS Amplify course in RuNet and member of Amazon's AWS Community Builders program. Shares expertise through blogs (dev.to), articles (itnext.io, Habr), and educational initiatives. 📝
 
-● Has excellent skills in creating minimum viable products (MVP), including rapid prototyping, implementation of important features and bringing the product to market in the shortest possible time. 🚀
+● Extensive technical stack: React Native, Apollo, Redux, GraphQL, agent-based architectures, and project management. 💪
 
-● Extensive experience in the development and management of a variety of IT projects, including gaming applications, educational platforms and mobile applications for financial institutions. 🎮
+● Expert in building MVPs and rapid prototyping, delivering feature-rich products to market swiftly. 🚀
 
-● Applies artificial intelligence to improve mobile apps and websites. 🤖
+● Diverse experience in IT project development and management, including agent-based solutions, gaming, educational platforms, and fintech mobile apps. 🎮
 
-● Has successful experience in organizing and developing the crypto community in Thailand. 🇹🇭 
+● Deep knowledge of artificial intelligence, agent-based automation, and integration of AI into web and mobile products. 🤖
 
-● Possesses deep skills in the field of cryptocurrencies and blockchain technologies. ₿
+● Successful organizer and developer of crypto communities in Thailand; strong background in blockchain and tokenomics. ₿🇹
 
-● Worked on the development of mobile applications for the blockchain payment system. 💰
+● Focused on implementing best practices and high standards in software engineering. ✅
 
-● Implements best practices and adheres to high quality standards in its work. ✅
+● Active mentor and educator, launching agent coding courses and training programs as part of JS CAMP. 🗣
 
-● Proactively shares knowledge and experience through publications, training courses and other platforms. 🗣
-
-● Willingness to assemble and manage a team of professionals for projects of any complexity. 👥
+● Ready to assemble and lead teams for complex projects in AI, Web3, and agent-based systems. 👥
 
 
 ## PROFESSIONAL EXPERIENCE 👔
 
-**08/2024 – present NeuroBlogger**: Founder, AI Agents Developer 📝
+**08/2024 – Present NeuroBlogger**: Founder, AI Agents Developer 📝
 
-Создал и развиваю сервис NeuroBlogger — платформу для генерации медиа-контента с помощью нейросетевых агентов. NeuroBlogger автоматизирует создание текстов, статей и публикаций для блогов, соцсетей и медиа, используя современные AI-модели.
+Created and developed NeuroBlogger, a platform for generating media content using neural network agents. NeuroBlogger automates the creation of texts, articles, and publications for blogs, social media, and media using modern AI models.
 
-Основные достижения:
+Key achievements:
 
-• Разработка архитектуры сервиса и запуск Telegram-бота для моментального создания и публикации контента  
-• Интеграция нейросетевых агентов для генерации текстов на русском и английском языках  
-• Внедрение инструментов для автоматизации работы с медиа и блогами  
-• Рост пользовательской базы и положительная обратная связь от профессионального сообщества
+• Developing the service architecture and launching a Telegram bot for instant content creation and publication
+• Integrating neural network agents for generating texts in Russian and English
+• Implementing tools for automating work with media and blogs
+• Growing the user base and receiving positive feedback from the professional community
 
 [Telegram](https://t.me/neuro_blogger_bot?start=144022504)
 
