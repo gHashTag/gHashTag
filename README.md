@@ -1,8 +1,8 @@
-# Vasilev Dmitrii Vladimirovich 🧑🏻‍🎤
+# Vasilev Dmitrii Vladimirovich 🧑🏻‍🎤 
 
 ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![React Native](https://img.shields.io/badge/react_native-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![Apollo-GraphQL](https://img.shields.io/badge/-ApolloGraphQL-311C87?style=for-the-badge&logo=apollo-graphql) ![GraphQL](https://img.shields.io/badge/-GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white)
 
-## Full Stack Developer ☁️  
+## AI Agents Developer ☁️  
 
 [Email](mailto:raoffonom@icloud.com?subject=Test)  |  [Twitter](https://twitter.com/koshasuperstar)  |  +66 (96) 2401-4170‬‬ | Thailand 🌴
 
@@ -33,6 +33,31 @@
 
 
 ## PROFESSIONAL EXPERIENCE 👔
+
+**08/2024 – present NeuroBlogger**: Founder, AI Agents Developer 📝
+
+Создал и развиваю сервис NeuroBlogger — платформу для генерации медиа-контента с помощью нейросетевых агентов. NeuroBlogger автоматизирует создание текстов, статей и публикаций для блогов, соцсетей и медиа, используя современные AI-модели.
+
+Основные достижения:
+
+• Разработка архитектуры сервиса и запуск Telegram-бота для моментального создания и публикации контента  
+• Интеграция нейросетевых агентов для генерации текстов на русском и английском языках  
+• Внедрение инструментов для автоматизации работы с медиа и блогами  
+• Рост пользовательской базы и положительная обратная связь от профессионального сообщества
+
+[Telegram](https://t.me/neuro_blogger_bot?start=144022504)
+
+**01/2024 – 08/2024 NeuroCalls**: Founder, AI Agents Developer 🤖
+
+Developed and launched the NeuroCalls service, a platform for call automation using intelligent agents and neural network technologies. The project implemented the functions of generating, processing, and analyzing voice interactions using modern AI models.
+
+Key Achievements:
+• Full development cycle: from architecture to service implementation and support
+• Integration of neural network agents for outgoing and incoming call automation
+• Application of speech synthesis, voice recognition, and dialog analysis technologies
+• Development of scalable solutions for businesses and individuals
+
+The NeuroCalls project is an example of the application of an agent-based approach and modern AI technologies to solving real-world business problems.
 
 **10/2015 – present LEELA Chakra AI**: Founder, Web3 Developer ⚙️
 
@@ -77,7 +102,9 @@ As part of his project, he successfully developed and released several mobile ap
 Successfully founded and managed a programming school offering educational services for children and adults.
 Mentoring and transferring knowledge on key technologies in the field of software development.
 
-[Telegram](https://t.me/javascriptcamp_bot) | [www](https://www.jscamp.app) |  [Instagram](http://instagram.com/dao999nft/) |  [App Store](https://apps.apple.com/us/app/id1526808075)  |  [Google Play](https://play.google.com/store/apps/details?id=com.sumerian) 
+Launched training in agent-based Vibe Coding, a new direction in programming focused on the creation and integration of digital agents.
+
+I teach the fundamentals and practice of developing intelligent agents, including architecture, tools, and best practices,
 
 **06/2021 – 07/2022 MUFFINS**: React Native Developer 🥞
 
