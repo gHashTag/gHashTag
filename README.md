@@ -4,7 +4,7 @@
 
 ## AI Agents Developer ☁️  
 
-[Email](mailto:raoffonom@icloud.com?subject=Test)  |  [Twitter](https://twitter.com/koshasuperstar)  |  +66 (96) 2401-4170‬‬ | Thailand 🌴
+[Email](mailto:raoffonom@icloud.com?subject=Test)  | [Telegram](https://t.me/neuro_sage)  |  [Twitter](https://twitter.com/koshasuperstar)  |  +66 (96) 2401-4170‬‬ | Thailand 🌴
 
 
 ## SUMMARY ✍️
