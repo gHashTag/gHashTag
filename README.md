@@ -34,14 +34,14 @@
 
 **08/2024 – Present NeuroBlogger**: Founder, AI Agents Developer 📝
 
-Created and developed NeuroBlogger, a platform for generating media content using neural network agents. NeuroBlogger automates the creation of texts, articles, and publications for blogs, social media, and media using modern AI models.
-
+Created and developed NeuroBlogger, a platform for generating media content using top-tier neural network agents (Claude, GPT-4, Gemini). Built with vibe-coding methodology—intuition-driven development that leverages agent-oriented architecture. NeuroBlogger automates the creation of texts, articles, and publications for blogs, social media, and media using cutting-edge AI models. Demonstrates advanced expertise in agent-based coding patterns.
 Key achievements:
 
 • Developing the service architecture and launching a Telegram bot for instant content creation and publication
 • Integrating neural network agents for generating texts in Russian and English
 • Implementing tools for automating work with media and blogs
 • Growing the user base and receiving positive feedback from the professional community
+• Vibe-coded with agent-oriented patterns, pioneering intuition-driven development for AI-powered systems
 
 [Telegram](https://t.me/neuro_blogger_bot?start=144022504)
 
