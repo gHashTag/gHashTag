@@ -222,6 +222,77 @@ Regularly interacted with customers, collecting feedback and suggestions, and us
 **1995 School No17, Solikamsk** 🏫
 
 
+
+## AI CODING AGENTS & AGENTIC SOFTWARE ENGINEERING 🤖
+
+**Autonomous AI-Powered Development**: Specializing in AI coding agent technologies and agentic software engineering patterns. Expert in leveraging cutting-edge autonomous coding tools to accelerate development cycles while maintaining code quality and architectural integrity.
+
+### AI Coding Frameworks & Tools
+
+**Claude Code**: Advanced agentic coding with CLI-based workflows, whole-codebase understanding, comprehensive test generation, and intelligent commit message creation. Expertise in iterative permission-based development and complex multi-file refactoring.
+
+**Cursor Agent**: Production IDE integration with web search capabilities, rapid development cycles, and cost-efficient agentic development. Multi-agent orchestration with deep workspace context management.
+
+**SWE-Agent (Software Engineering Agents)**: Autonomous issue resolution in real GitHub repositories, full development lifecycle automation (code understanding, localization, implementation, debugging, testing), and collaborative developer-agent problem-solving patterns.
+
+### Agentic Coding Best Practices
+
+• **Prompt Engineering for Agents**: Designing reusable workflows, task preparation templates, implementation strategies, and context-aware system prompts (СLAUDE.md, .cursorrules patterns)
+
+• **Memory & Knowledge Management**: Implementing persistent agent memory systems, working knowledge bases, task continuation across sessions, and efficient context window management
+
+• **Human-in-the-Loop Collaboration**: Developing supervised agent workflows with clear task scopes, required code review gates, CI/CD checkpoint integration, and audit logging
+
+• **Tool Integration & MCP**: Building custom tools, Model Context Protocol integration (browser access, database queries, file operations), and tool composition for complex workflows
+
+• **Quality Assurance**: Comprehensive test-first development with agents, automated test validation, defect tracking, and lead-time metrics optimization
+
+### Real-World Applications
+
+• **Rapid Prototyping**: Building production-quality MVPs in days using agentic workflows
+• **Legacy Code Migration**: Autonomous refactoring and modernization of large codebases
+• **Feature Development**: Full-stack feature implementation with agent-driven design and testing
+• **Documentation & Onboarding**: Automated code explanation and architecture documentation generation
+• **CI/CD Automation**: Intelligent pipeline development and optimization via agents
+
+
+## MATHEMATICAL & THEORETICAL FOUNDATIONS 📐
+
+**Core Competencies** in areas directly relevant to frontier AI research and algorithm development:
+
+### Linear Algebra & Matrix Operations
+- Tensor operations and transformations (rank, eigenvalues, eigenvectors)
+- SVD, QR decomposition, and spectral analysis
+- Matrix calculus for gradient-based optimization
+- Applications in neural network architectures and dimensionality reduction
+
+### Probability & Statistics
+- Bayesian inference and probabilistic graphical models
+- Statistical hypothesis testing and significance analysis
+- Distribution theory (multivariate Gaussian, exponential families)
+- Maximum likelihood estimation and variational inference
+- Markov chains and stochastic processes
+
+### Calculus & Optimization
+- Multivariable calculus and partial derivatives
+- Gradient descent, backpropagation, and optimization algorithms (Adam, SGD, momentum)
+- Convex and non-convex optimization theory
+- Constraint optimization and Lagrange multipliers
+- Differential equations for modeling dynamic systems
+
+### Information Theory & Deep Learning Mathematics
+- Entropy, KL divergence, and information-theoretic bounds
+- Cross-entropy loss and probabilistic interpretations
+- Attention mechanisms and transformer mathematics
+- Sampling techniques (rejection sampling, importance sampling, MCMC)
+
+### Self-Study & Research
+- Continuous learning through academic papers (arXiv, top-tier conferences)
+- Implementation of algorithms from first principles
+- Experimentation with novel approaches to frontier problems
+- Contributions to open-source ML/AI projects
+
+
 ## SPOKEN LANGUAGES 🌎
 
 Russian – native, English – B2
