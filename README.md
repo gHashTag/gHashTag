@@ -48,9 +48,11 @@ Key responsibilities include:
 • Advising on Web3 integration, blockchain tokenomics, and decentralized system design 🔐
 • Creating high-performance solutions that combine intuition, design, and technical excellence ✨
 
-Tech Stack: Node.js, TypeScript, Claude AI, GPT-4, Telegram Bot API, Cloudflare Workers, Supabase, GraphQL, React, React Native, Gleam
+Tech Stack: Node.js, TypeScript, Claude AI, GPT-4, Telegram Bot API, Cloudflare Workers, Supabase, GraphQL, React, React Native, Gleam, Eliza OS
 
 **Gleam Focus**: Implementing all new projects with Gleam language - leveraging its type safety, pattern matching, and functional programming paradigms for building scalable, maintainable, and elegant solutions. Gleam is my primary choice for vibe-coding all new backend services and API architectures. 🔗
+
+**Eliza OS AI Agent Framework**: Specializing in multi-agent system architecture using ElizaOS - an autonomous operating system for composable AI agents. Building sophisticated bot personalities with character-driven interactions, memory management, and RAG (Retrieval-Augmented Generation) systems. Implementing agent-to-agent communication protocols, task orchestration, and Web3 integration capabilities. 🤖
 **08/2024 – Present NeuroBlogger**: Founder, AI Agents Developer 📝
 
 Created and developed NeuroBlogger, a platform for generating media content using top-tier neural network agents (Claude, GPT-4, Gemini). Built with vibe-coding methodology—intuition-driven development that leverages agent-oriented architecture. NeuroBlogger automates the creation of texts, articles, and publications for blogs, social media, and media using cutting-edge AI models. Demonstrates advanced expertise in agent-based coding patterns.
@@ -227,4 +229,16 @@ Russian – native, English – B2
 
 ## CORE SKILLS ⚒️
 
-Product Strategy and Management, Business Strategy/Analysis, Digital Marketing, Project Management, Storyboarding, Agile, ReactNative, JavaScript, FrontEndDevelopment, MobileAppDevelopment, UIDevelopment, APIIntegration, StateManagemet.
+**AI Agent Development**: Multi-agent systems, LLM integration, prompt engineering, agent orchestration, memory management, RAG systems
+
+**Languages & Frameworks**: JavaScript, TypeScript, Python, Bash | React, React Native, Node.js, Express | Gleam, Eliza OS
+
+**Cloud & Infrastructure**: Cloudflare Workers/Durable Objects, Supabase, AWS Amplify, GraphQL, PostgreSQL, Neon
+
+**Blockchain & Web3**: Smart contracts, tokenomics, Solana, DeFi integrations, NFT systems, DAO management
+
+**Bot Development**: Telegram Bot API, Discord.js, character design, plugin development, multi-platform deployment
+
+**Product & Business**: Product strategy, business analysis, project management, Agile methodologies, technical leadership
+
+**Soft Skills**: Team mentorship, code review, architectural design, problem-solving, rapid prototypingJavaScript, FrontEndDevelopment, MobileAppDevelopment, UIDevelopment, APIIntegration, StateManagemet.
