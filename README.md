@@ -2,7 +2,7 @@
 
 ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![React Native](https://img.shields.io/badge/react_native-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![Apollo-GraphQL](https://img.shields.io/badge/-ApolloGraphQL-311C87?style=for-the-badge&logo=apollo-graphql) ![GraphQL](https://img.shields.io/badge/-GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white)
 
-## AI Agents Developer ☁️  
+## AI Agents Developer ☁️| VibeCoder 🎯 | Consultant 💼
 
 [Email](mailto:raoffonom@icloud.com?subject=Test)  | [Telegram](https://t.me/neuro_sage)  |  [Twitter](https://twitter.com/koshasuperstar)  |  +66 (96) 2401-4170‬‬ | Thailand 🌴
 
@@ -28,10 +28,27 @@
 ● Active mentor and educator, launching agent coding courses and training programs as part of JS CAMP. 🗣
 
 ● Ready to assemble and lead teams for complex projects in AI, Web3, and agent-based systems. 👥
+● Specialist in vibe-coding and intuition-driven development—pioneering a new paradigm in software engineering that combines artistic vision, technical excellence, and artificial intelligence integration. 🎯
 
 
 ## PROFESSIONAL EXPERIENCE 👔
 
+
+**05/2025 – Present VibeCoder Consultant**: Freelance Vibes Developer & AI Consultant 🎯
+
+Independent freelance consultant specializing in vibe-coding methodology and AI-driven development. Helping startups and enterprises harness intuition-driven development practices combined with cutting-edge agent-based architectures.
+
+Key responsibilities include:
+
+• Consulting on vibe-coding patterns and intuition-driven software development methodologies 💭
+• Designing and implementing agent-based solutions for AI-powered applications 🤖
+• Mentoring development teams on modern AI integration and prompt engineering techniques 📚
+• Building scalable microservices architectures using Cloudflare Workers, Durable Objects, and serverless technologies ☁️
+• Developing custom AI agent frameworks and orchestration patterns for complex workflows 🔗
+• Advising on Web3 integration, blockchain tokenomics, and decentralized system design 🔐
+• Creating high-performance solutions that combine intuition, design, and technical excellence ✨
+
+Tech Stack: Node.js, TypeScript, Claude AI, GPT-4, Telegram Bot API, Cloudflare Workers, Supabase, GraphQL, React, React Native
 **08/2024 – Present NeuroBlogger**: Founder, AI Agents Developer 📝
 
 Created and developed NeuroBlogger, a platform for generating media content using top-tier neural network agents (Claude, GPT-4, Gemini). Built with vibe-coding methodology—intuition-driven development that leverages agent-oriented architecture. NeuroBlogger automates the creation of texts, articles, and publications for blogs, social media, and media using cutting-edge AI models. Demonstrates advanced expertise in agent-based coding patterns.
