@@ -34,7 +34,7 @@
 ## PROFESSIONAL EXPERIENCE 👔
 
 
-**05/2025 – Present VibeCoder Consultant**: Freelance Vibes Developer & AI Consultant 🎯
+**05/2025 – Present [Академия Вайбкодинга](https://999-web.vercel.app/academy) - VibeCoder Consultant**: Freelance Vibes Developer & AI Consultant 🎯
 
 Independent freelance consultant specializing in vibe-coding methodology and AI-driven development. Helping startups and enterprises harness intuition-driven development practices combined with cutting-edge agent-based architectures.
 
@@ -48,7 +48,9 @@ Key responsibilities include:
 • Advising on Web3 integration, blockchain tokenomics, and decentralized system design 🔐
 • Creating high-performance solutions that combine intuition, design, and technical excellence ✨
 
-Tech Stack: Node.js, TypeScript, Claude AI, GPT-4, Telegram Bot API, Cloudflare Workers, Supabase, GraphQL, React, React Native
+Tech Stack: Node.js, TypeScript, Claude AI, GPT-4, Telegram Bot API, Cloudflare Workers, Supabase, GraphQL, React, React Native, Gleam
+
+**Gleam Focus**: Implementing all new projects with Gleam language - leveraging its type safety, pattern matching, and functional programming paradigms for building scalable, maintainable, and elegant solutions. Gleam is my primary choice for vibe-coding all new backend services and API architectures. 🔗
 **08/2024 – Present NeuroBlogger**: Founder, AI Agents Developer 📝
 
 Created and developed NeuroBlogger, a platform for generating media content using top-tier neural network agents (Claude, GPT-4, Gemini). Built with vibe-coding methodology—intuition-driven development that leverages agent-oriented architecture. NeuroBlogger automates the creation of texts, articles, and publications for blogs, social media, and media using cutting-edge AI models. Demonstrates advanced expertise in agent-based coding patterns.
