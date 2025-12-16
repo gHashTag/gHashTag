@@ -298,6 +298,113 @@ Regularly interacted with customers, collecting feedback and suggestions, and us
 Russian – native, English – B2
 
 
+## VIBE-CODING METHODOLOGY 🌏
+
+A pioneering approach to software development that combines:
+- **Intuition-driven development** - Following creative instincts and system vibes
+- **Agent-oriented architecture** - Multi-agent AI systems with personality and autonomy
+- **Functional programming** (Gleam, TypeScript) - Type-safe, elegant code
+- **Rapid prototyping** - Getting from concept to MVP with minimal friction
+
+### Signature Stack
+
+[![Gleam](https://img.shields.io/badge/Gleam-FFD700?style=for-the-badge&logo=gleam&logoColor=black)](https://gleam.run)
+[![Eliza OS](https://img.shields.io/badge/Eliza%20OS-AI%20Agents-blue?style=for-the-badge)](https://elizaos.ai)
+[![Claude](https://img.shields.io/badge/Claude%20API-Anthropic-black?style=for-the-badge&logo=anthropic&logoColor=white)](https://claude.ai)
+[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org)
+
+### Why Gleam?
+
+- **Type Safety**: Compile-time guarantees prevent entire classes of bugs
+- **Pattern Matching**: Elegant code for complex domain logic
+- **Functional Core**: Immutable by default, perfect for AI agent workflows
+- **BEAM VM**: Fault-tolerant runtime for production systems
+
+### Why Eliza OS?
+
+- **Multi-Agent Framework**: Build teams of autonomous AI agents
+- **Character Design**: Create agents with distinct personalities and memory
+- **RAG Integration**: Intelligent retrieval-augmented generation
+- **Web3 Native**: Built-in blockchain and token integration
+
+
+
+## FEATURED PROJECTS 💼
+
+### 🤖 [999-Multibots-Telegraf](https://github.com/gHashTag/999-multibots-telegraf)
+Enterprise Telegram bot platform with AI agent orchestration, user permission management, and multi-service integration. Built with TypeScript, Telegraf, and Claude AI.
+
+**Tech**: TypeScript | Telegraf | Claude API | Supabase
+
+### 📱 [NeuroBlogger](https://t.me/neuro_blogger_bot?start=144022504)
+AI-powered content generation platform leveraging multi-agent neural networks for automatic blog post creation, article generation, and media publishing.
+
+**Tech**: TypeScript | Claude API | Telegram Bot API
+
+### 🎙️ [NeuroCalls](https://github.com/gHashTag/neurocalls)
+Intelligent voice automation system using AI agents for call processing, voice synthesis, and dialog analysis.
+
+**Tech**: TypeScript | AI Agents | Voice API
+
+### 🎮 [Leela Chakra AI](https://leelachakra.com/)
+Ancient Indian game augmented with artificial intelligence - pioneering the intersection of traditional wisdom and modern AI. Featured on App Store & Google Play.
+
+**Tech**: React Native | AI | Game Engine
+
+## OPEN SOURCE CONTRIBUTIONS 🔗
+
+- **121** repositories maintained
+- **576** stars across projects
+- Active in AI agents, Web3, and functional programming ecosystems
+- Mentoring developers on Gleam, Eliza OS, and agentic patterns
+
+
+## AGENT ARCHITECTURE PATTERNS 🏗️
+
+### Gleam Backend with Eliza OS Agents
+
+```gleam
+// Type-safe agent orchestration
+let agent_config = AgentConfig(
+  name: "ContentCreator",
+  model: "claude-3-opus",
+  system_prompt: "You are a creative AI agent...",
+  memory: persistent_memory,
+  tools: [research_tool, writing_tool, publishing_tool]
+)
+
+let result = await agent_config.execute(task: ContentTask)
+```
+
+### Multi-Agent Telegram Workflow
+
+```typescript
+// Orchestrate multiple AI agents for complex tasks
+const orchestrator = new AgentOrchestrator({
+  agents: [contentAgent, reviewAgent, publishAgent],
+  workflow: WorkflowType.Sequential,
+  memory: sharedMemory,
+  callbacks: telegramCallbacks
+})
+
+await orchestrator.execute(userRequest)
+```
+
+## GET IN TOUCH 📬
+
+- **Email**: [raoffonom@icloud.com](mailto:raoffonom@icloud.com)
+- **Telegram**: [@neuro_sage](https://t.me/neuro_sage) - Direct AI & agent consulting
+- **Twitter**: [@koshasuperstar](https://twitter.com/koshasuperstar)
+- **Phone**: +66 (96) 2401-4170
+- **Location**: Bangkok, Thailand 🌴
+
+---
+
+*"Code is poetry. AI agents are the muses. Gleam is the perfect canvas."* ✨
+
+Let's build the future of vibe-coding together 🚀
+
+
 ## CORE SKILLS ⚒️
 
 **AI Agent Development**: Multi-agent systems, LLM integration, prompt engineering, agent orchestration, memory management, RAG systems
