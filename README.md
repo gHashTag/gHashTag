@@ -53,6 +53,7 @@ Tech Stack: Node.js, TypeScript, Claude AI, GPT-4, Telegram Bot API, Cloudflare 
 **Gleam Focus**: Implementing all new projects with Gleam language - leveraging its type safety, pattern matching, and functional programming paradigms for building scalable, maintainable, and elegant solutions. Gleam is my primary choice for vibe-coding all new backend services and API architectures. 🔗
 
 **Eliza OS AI Agent Framework**: Specializing in multi-agent system architecture using ElizaOS - an autonomous operating system for composable AI agents. Building sophisticated bot personalities with character-driven interactions, memory management, and RAG (Retrieval-Augmented Generation) systems. Implementing agent-to-agent communication protocols, task orchestration, and Web3 integration capabilities. 🤖
+
 **08/2024 – Present NeuroBlogger**: Founder, AI Agents Developer 📝
 
 Created and developed NeuroBlogger, a platform for generating media content using top-tier neural network agents (Claude, GPT-4, Gemini). Built with vibe-coding methodology—intuition-driven development that leverages agent-oriented architecture. NeuroBlogger automates the creation of texts, articles, and publications for blogs, social media, and media using cutting-edge AI models. Demonstrates advanced expertise in agent-based coding patterns.
