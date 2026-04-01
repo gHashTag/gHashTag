@@ -34,7 +34,7 @@
 ## PROFESSIONAL EXPERIENCE 👔
 
 
-**05/2025 – Present [Академия Вайбкодинга](https://999-web.vercel.app/academy) - VibeCoder Consultant**: Freelance Vibes Developer & AI Consultant 🎯
+**05/2025 – Present [Vibee](https://999-web.vercel.app/academy) - VibeCoder Consultant**: Freelance Vibes Developer & AI Consultant 🎯
 
 Independent freelance consultant specializing in vibe-coding methodology and AI-driven development. Helping startups and enterprises harness intuition-driven development practices combined with cutting-edge agent-based architectures.
 
