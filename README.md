@@ -4,7 +4,7 @@
 
 ## AI Agents Developer ☁️| VibeCoder 🎯 | Consultant 💼
 
-[Email](mailto:raoffonom@icloud.com?subject=Test)  | [Telegram](https://t.me/neuro_sage)  |  [Twitter](https://twitter.com/koshasuperstar)  |  +66 (96) 2401-4170‬‬ | Thailand 🌴
+[Email](mailto:raoffonom@icloud.com?subject=Test)  | [Telegram](https://t.me/neuro_sage)  |  [Twitter/X](https://twitter.com/tri_dev)  | Thailand 🌴
 
 
 ## SUMMARY ✍️
