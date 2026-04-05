@@ -4,7 +4,7 @@
 
 ## AI Agents Developer ☁️| VibeCoder 🎯 | Consultant 💼
 
-[Email](mailto:raoffonom@icloud.com?subject=Test)  | [Telegram](https://t.me/neuro_sage)  |  [Twitter/X](https://twitter.com/tri_dev)  | Thailand 🌴
+[Email](mailto:raoffonom@icloud.com?subject=Test)  | [Telegram](https://t.me/t27_dev)  |  [Twitter/X](https://x.com/t27_dev)  | Thailand 🌴
 
 
 ## SUMMARY ✍️
