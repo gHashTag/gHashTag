@@ -211,9 +211,9 @@ A pioneering approach combining:
 
 ## GET IN TOUCH 📬
 
-- **Email:** raoffonom@icloud.com
-- **Telegram:** [@neuro_sage](https://t.me/neuro_sage) — Direct AI & agent consulting
-- **Twitter/X:** [@t27_dev](https://x.com/t27_dev) · [@koshasuperstar](https://twitter.com/koshasuperstar)
+- **Email:** admin@t27.dev
+- **Telegram:** [@t27_dev)](https://t.me/t27_dev) — Direct AI & agent consulting
+- **Twitter/X:** [@t27_dev](https://x.com/t27_dev) · [@t27_dev)](https://x.com/t27_dev))
 - **Phone:** +66 (96) 2401-4170
 - **Location:** Ko Pha-ngan / Bangkok, Thailand 🌴
 
