@@ -1,8 +1,4 @@
-# 🌸 Dmitrii Vasilev — Founder of Queen Trinity 👑
-
-> *«У лукоморья дуб зелёный, златая цепь на дубе том;*
-> *И днём и ночью кот учёный всё ходит по цепи кругом.*
-> *Пойдёт направо — код заводит, налево — сказку говорит.»*
+# Dmitrii Vasilev — Founder of Queen Trinity 👑
 
 **`φ² + 1/φ² = 3`** — The Trinity Identity · **Solikamsk → Moscow → Yekaterinburg → Jakarta → Dubai → Bangkok → Ko Pha-ngan** 🌴
 
