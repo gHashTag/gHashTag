@@ -1,6 +1,6 @@
 # Dmitrii Vasilev — Founder of Queen Trinity 👑
 
-**`φ² + 1/φ² = 3`** — The Trinity Identity · **Solikamsk → Moscow → Yekaterinburg → Jakarta → Dubai → Bangkok → Ko Pha-ngan** 🌴
+**`φ² + 1/φ² = 3`** — The Trinity Identity · **Solikamsk →  Yekaterinburg → Moscow  → Jakarta → Dubai → Bangkok → Ko Pha-ngan** 🌴
 
 [![Trinity](https://img.shields.io/badge/Queen-Trinity-gold?style=for-the-badge)](https://github.com/gHashTag/trinity)
 [![t27](https://img.shields.io/badge/t27-27_agents-green?style=for-the-badge)](https://github.com/gHashTag/t27)
