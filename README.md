@@ -16,7 +16,7 @@ I build **hardware ML accelerators**, **custom number formats**, and **AI agent 
 - ⚡ **FPGA RTL** — custom float arithmetic, matmul cores, open-source toolchain (Yosys / nextpnr / XVC)
 - 🧠 **ML Infrastructure** — CPU-optimized training, quantization, ternary neural nets in Rust
 - 🤖 **AI Agent Systems** — multi-agent orchestration, MCP, Claude, RAG pipelines
-- 📱 **React Native / TypeScript** — 100K+ learners, production apps since 2016
+- 📱 **React Native / TypeScript** — production apps and courses since 2016
 
 ---
 
@@ -24,11 +24,9 @@ I build **hardware ML accelerators**, **custom number formats**, and **AI agent 
 
 | What | Numbers |
 |---|---|
-| GF16 4×4 matmul on FPGA | **323 MHz · 41.2 GOPS · 0 DSP48 · 0 latches** — running on silicon |
+| GF16 4×4 matmul on FPGA | **323 MHz · 41.2 GOPS · 0 DSP48 · 0 latches** — running on hardware |
 | TinyTapeout SKY130 ASIC | GDS ✅ · GL test ✅ · Precheck ✅ — chip tape-out path confirmed |
 | Ternary LLM on $30 FPGA | **63 tok/s @ 1W** · 0 multipliers · open toolchain · [DOI](https://doi.org/10.5281/zenodo.18947017) |
-| NeuroBlogger platform | **50,000+ users** · 1,000+ articles/month · multi-agent content |
-| JS CAMP school | **100,000+ learners** · first React Native course in RuNet |
 
 ---
 
@@ -93,9 +91,9 @@ Blockchain / Web3  Solana · Ethereum · ERC-20 · DeFi · DAO tokenomics
 |---|---|
 | 2026 – now | FPGA/ML Research Engineer — GF16 matmul, TinyTapeout silicon, trinity-fpga |
 | 2025 – now | VibeCoder Consultant @ [Vibee](https://999-web.vercel.app/academy) — AI agents, multi-agent architectures |
-| 2024 – now | Founder — NeuroBlogger (50k users) · NeuroCalls (10k+ calls) |
+| 2024 – now | Founder — NeuroBlogger · NeuroCalls — voice & content AI agents |
 | 2022–2023 | Senior React Native Developer @ HAQQ (UAE) — Islamic blockchain, team of 8 |
-| 2016 – now | Founder — JS CAMP · 100K+ learners · first RuNet React Native course |
+| 2016 – now | Founder — JS CAMP · JavaScript / React Native school |
 | 2015 – now | Founder — LEELA Chakra AI · App Store + Google Play |
 
 ---
