@@ -77,11 +77,14 @@ Blockchain / Web3  Solana · Ethereum · ERC-20 · DeFi · DAO tokenomics
 
 ---
 
-## 📈 GitHub Activity
+## 📈 GitHub
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=gHashTag&show_icons=true&theme=dark&hide_border=true&count_private=true&include_all_commits=true)
+[![Repos](https://img.shields.io/badge/Public%20Repos-158-blue?style=flat-square&logo=github)](https://github.com/gHashTag?tab=repositories)
+[![Followers](https://img.shields.io/badge/Followers-82-lightgrey?style=flat-square&logo=github)](https://github.com/gHashTag?tab=followers)
+[![Zenodo DOI](https://img.shields.io/badge/Zenodo-3%20DOIs-orange?style=flat-square)](https://zenodo.org/search?q=gHashTag)
+[![Member since](https://img.shields.io/badge/GitHub%20since-2014-informational?style=flat-square&logo=github)](https://github.com/gHashTag)
 
-**121 repos · 10,000+ contributions/year · 3 Zenodo DOIs**
+**158 public repos · 82 followers · 3 Zenodo DOIs · on GitHub since 2014**
 
 ---
 
