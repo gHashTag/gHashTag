@@ -69,22 +69,29 @@ Blockchain / Web3  Solana · Ethereum · ERC-20 · DeFi · DAO tokenomics
 | Repo | Description |
 |---|---|
 | [trinity-fpga](https://github.com/gHashTag/trinity-fpga) | GF16 matmul FPGA core — 323 MHz, TinyTapeout ASIC, ring oscillator clock |
-| [zig-golden-float](https://github.com/gHashTag/zig-golden-float) | GF16 / TF3 custom float formats — bias=31, phi-structured (φ²+φ⁻²=3) |
+| [tt-trinity-gf16](https://github.com/gHashTag/tt-trinity-gf16) | TinyTapeout TTSKY26a submission — GDS ✅ GL test ✅ Precheck ✅ |
+| [zig-golden-float](https://github.com/gHashTag/zig-golden-float) | GF16 / TF3 custom float formats — bias=31, phi-structured |
 | [t27](https://github.com/gHashTag/t27) | Spec-first language for ternary compute — 31 rings, [DOI](https://doi.org/10.5281/zenodo.19456875) |
 | [trinity](https://github.com/gHashTag/trinity) | `tri` CLI · VSA · BitNet LLM · DePIN mesh inference |
 | [trios](https://github.com/gHashTag/trios) | PhD Golden Chain — 42 chapters, golden-ratio physics constants |
+| [trios-railway](https://github.com/gHashTag/trios-railway) | Railway MCP · IGLA orchestration in Rust |
 | [trinity-clara](https://github.com/gHashTag/trinity-clara) | DARPA CLARA proposal · 84 Coq proofs |
 
 ---
 
 ## 📈 GitHub
 
-[![Repos](https://img.shields.io/badge/Public%20Repos-158-blue?style=flat-square&logo=github)](https://github.com/gHashTag?tab=repositories)
+[![Repos](https://img.shields.io/badge/Repositories-175%20total-blue?style=flat-square&logo=github)](https://github.com/gHashTag?tab=repositories)
+[![Public](https://img.shields.io/badge/Public-151-blue?style=flat-square&logo=github)](https://github.com/gHashTag?tab=repositories)
 [![Followers](https://img.shields.io/badge/Followers-82-lightgrey?style=flat-square&logo=github)](https://github.com/gHashTag?tab=followers)
-[![Zenodo DOI](https://img.shields.io/badge/Zenodo-3%20DOIs-orange?style=flat-square)](https://zenodo.org/search?q=gHashTag)
-[![Member since](https://img.shields.io/badge/GitHub%20since-2014-informational?style=flat-square&logo=github)](https://github.com/gHashTag)
+[![Since](https://img.shields.io/badge/GitHub%20since-2014-informational?style=flat-square&logo=github)](https://github.com/gHashTag)
 
-**158 public repos · 82 followers · 3 Zenodo DOIs · on GitHub since 2014**
+**175 repos (151 public + 24 private) · 82 followers · on GitHub since 2014**
+
+**Zenodo DOIs:**
+- [10.5281/zenodo.19456875](https://doi.org/10.5281/zenodo.19456875) — t27 language spec
+- [10.5281/zenodo.19227879](https://doi.org/10.5281/zenodo.19227879) — Trinity v9.0
+- [10.5281/zenodo.18947017](https://doi.org/10.5281/zenodo.18947017) — FPGA autoregressive LLM
 
 ---
 
