@@ -18,6 +18,7 @@
 
 ## 🔥 What I Do
 
+
 I build **hardware ML accelerators**, **custom number formats**, and **AI agent systems** — from RTL to silicon.
 
 - ⚡ **FPGA RTL** — custom float arithmetic, matmul cores, open-source toolchain (Yosys / nextpnr / XVC)
@@ -28,6 +29,7 @@ I build **hardware ML accelerators**, **custom number formats**, and **AI agent 
 ---
 
 ## 🏆 Verified Results (2026)
+
 
 | What | Numbers |
 |---|---|
@@ -40,12 +42,17 @@ I build **hardware ML accelerators**, **custom number formats**, and **AI agent 
 
 ## 📄 Papers
 
+
 - **GoldenFloat: A Phi-Derived Static-Split Floating-Point Family from GF4 to GF1024 with a Lucas-Exact Integer Identity** — [arXiv:2606.05017](https://arxiv.org/abs/2606.05017)
 - **An 83-Format Numeric Catalog with Bit-Exact Conformance Vectors: A Vendor-Neutral Reference for FP8, BF16, MXFP4, and Microscaling Formats** — [arXiv:2606.09686](https://arxiv.org/abs/2606.09686)
 
 ---
 
+<details>
+<summary><b>💼 Services & rates</b> &nbsp;— click to expand</summary>
+
 ## 💼 Services
+
 
 | Service | Stack | Rate |
 |---|---|---|
@@ -57,9 +64,15 @@ I build **hardware ML accelerators**, **custom number formats**, and **AI agent 
 
 > 📩 **[admin@t27.dev](mailto:admin@t27.dev)** · **[Telegram @t27_dev](https://t.me/t27_dev)** · Response within a few hours
 
+</details>
+
 ---
 
+<details>
+<summary><b>🛠 Full technical stack</b> &nbsp;— click to expand</summary>
+
 ## 🛠 Technical Stack
+
 
 ```
 FPGA / Hardware    Verilog · Yosys · nextpnr · prjxray · openXC7 · XVC/JTAG
@@ -77,9 +90,12 @@ Web / Mobile       TypeScript · React Native · React · Node.js · GraphQL
 Blockchain / Web3  Solana · Ethereum · ERC-20 · DeFi · DAO tokenomics
 ```
 
+</details>
+
 ---
 
 ## 📂 Key Projects
+
 
 | Repo | Description |
 |---|---|
@@ -94,7 +110,11 @@ Blockchain / Web3  Solana · Ethereum · ERC-20 · DeFi · DAO tokenomics
 
 ---
 
+<details>
+<summary><b>📈 GitHub stats & Zenodo DOIs</b> &nbsp;— click to expand</summary>
+
 ## 📈 GitHub
+
 
 [![Repos](https://img.shields.io/badge/Repositories-210%20total-blue?style=flat-square&logo=github)](https://github.com/gHashTag?tab=repositories)
 [![Public](https://img.shields.io/badge/Public-186-blue?style=flat-square&logo=github)](https://github.com/gHashTag?tab=repositories)
@@ -108,9 +128,15 @@ Blockchain / Web3  Solana · Ethereum · ERC-20 · DeFi · DAO tokenomics
 - [10.5281/zenodo.19227879](https://doi.org/10.5281/zenodo.19227879) — Trinity v9.0
 - [10.5281/zenodo.18947017](https://doi.org/10.5281/zenodo.18947017) — FPGA autoregressive LLM
 
+</details>
+
 ---
 
+<details>
+<summary><b>🧾 Experience — 6 roles (FPGA/ML · Vibee · HAQQ · JS CAMP · LEELA · NeuroBlogger), 2015→now</b> &nbsp;— click to expand</summary>
+
 ## 🧾 Experience
+
 
 | Period | Role |
 |---|---|
@@ -121,17 +147,26 @@ Blockchain / Web3  Solana · Ethereum · ERC-20 · DeFi · DAO tokenomics
 | 2016 – now | Founder — JS CAMP · JavaScript / React Native school |
 | 2015 – now | Founder — LEELA Chakra AI · App Store + Google Play |
 
+</details>
+
 ---
 
+<details>
+<summary><b>🎓 Education — PhD in progress · State Univ. of Management · AWS Community Builder</b> &nbsp;— click to expand</summary>
+
 ## 🎓 Education
+
 
 - **PhD in progress** — *Golden Chain: Unification of Physical Constants via Golden Ratio* (2026–)
 - **State University of Management, Moscow** — Management (2006)
 - **AWS Community Builders** member
 
+</details>
+
 ---
 
 ## 📬 Contact
+
 
 | | |
 |---|---|
@@ -144,3 +179,5 @@ Blockchain / Web3  Solana · Ethereum · ERC-20 · DeFi · DAO tokenomics
 ---
 
 <sub>*φ² + φ⁻² = 3 · Building hardware that thinks*</sub>
+
+---
