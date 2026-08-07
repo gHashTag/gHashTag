@@ -4,6 +4,9 @@
 
 **Open to remote contract work** · Ko Samui, Thailand 🌴 · UTC+7
 
+**🎯 Looking for:** hardware-AI · ML-systems · FPGA / RTL roles — remote, full-time or contract
+**🔨 Currently:** proving on-device neural-net *training* on FPGA — `.t27` spec → Verilog → silicon, bit-exact
+
 [![Available for Hire](https://img.shields.io/badge/✅%20Available-Remote%20Contract-brightgreen?style=for-the-badge)](mailto:admin@t27.dev)
 [![Email](https://img.shields.io/badge/Email-admin@t27.dev-blue?style=for-the-badge&logo=gmail)](mailto:admin@t27.dev)
 [![Telegram](https://img.shields.io/badge/Telegram-@t27__dev-2CA5E0?style=for-the-badge&logo=telegram)](https://t.me/t27_dev)
@@ -93,12 +96,12 @@ Blockchain / Web3  Solana · Ethereum · ERC-20 · DeFi · DAO tokenomics
 
 ## 📈 GitHub
 
-[![Repos](https://img.shields.io/badge/Repositories-175%20total-blue?style=flat-square&logo=github)](https://github.com/gHashTag?tab=repositories)
-[![Public](https://img.shields.io/badge/Public-151-blue?style=flat-square&logo=github)](https://github.com/gHashTag?tab=repositories)
-[![Followers](https://img.shields.io/badge/Followers-82-lightgrey?style=flat-square&logo=github)](https://github.com/gHashTag?tab=followers)
+[![Repos](https://img.shields.io/badge/Repositories-210%20total-blue?style=flat-square&logo=github)](https://github.com/gHashTag?tab=repositories)
+[![Public](https://img.shields.io/badge/Public-186-blue?style=flat-square&logo=github)](https://github.com/gHashTag?tab=repositories)
+[![Followers](https://img.shields.io/badge/Followers-86-lightgrey?style=flat-square&logo=github)](https://github.com/gHashTag?tab=followers)
 [![Since](https://img.shields.io/badge/GitHub%20since-2014-informational?style=flat-square&logo=github)](https://github.com/gHashTag)
 
-**175 repos (151 public + 24 private) · 82 followers · on GitHub since 2014**
+**210 repos (186 public + 24 private) · 86 followers · on GitHub since 2014**
 
 **Zenodo DOIs:**
 - [10.5281/zenodo.19456875](https://doi.org/10.5281/zenodo.19456875) — t27 language spec
