@@ -7,6 +7,8 @@
 **🎯 Looking for:** hardware-AI · ML-systems · FPGA / RTL roles — remote, full-time or contract
 **🔨 Currently:** proving on-device neural-net *training* on FPGA — `.t27` spec → Verilog → silicon, bit-exact
 
+📄 **Full CV / resume:** [CV.md](./CV.md)
+
 [![Available for Hire](https://img.shields.io/badge/✅%20Available-Remote%20Contract-brightgreen?style=for-the-badge)](mailto:admin@t27.dev)
 [![Email](https://img.shields.io/badge/Email-admin@t27.dev-blue?style=for-the-badge&logo=gmail)](mailto:admin@t27.dev)
 [![Telegram](https://img.shields.io/badge/Telegram-@t27__dev-2CA5E0?style=for-the-badge&logo=telegram)](https://t.me/t27_dev)
