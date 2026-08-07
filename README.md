@@ -54,11 +54,12 @@ I specialize in **ternary ML** — I design the number formats, the hardware tha
 
 ---
 
-## 🏅 Hackathons & open-source
+## 🏅 Competitions, grants & open-source
 
 - **Google DeepMind AGI Hackathon 2026** — [`agi-hackathon`](https://github.com/gHashTag/agi-hackathon) evaluation framework
 - **The Open League (TON)** — NeuroCalls meeting-analysis service
 - **OpenAI Parameter Golf** — competition entry with novel **GF16 quantization** (Trinity Cognitive Stack): ~50% weight compression · ~3e-5 roundtrip error — [`parameter-golf-trinity`](https://github.com/gHashTag/parameter-golf-trinity)
+- **DARPA CLARA** (PA-25-07-02) — submission: Trinity Cognitive Stack; 10 CLARA reasoning gaps realized in open-RTL silicon (TinyTapeout SKY130, 3 chips) — [`trinity-clara`](https://github.com/gHashTag/trinity-clara)
 - **186 repositories** — the **Trinity** ecosystem: ternary compute, FPGA, formal Coq/Rocq proofs, MCP servers, on-chain contracts
 
 ---
