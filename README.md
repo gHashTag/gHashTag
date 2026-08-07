@@ -1,6 +1,8 @@
-# Dmitrii Vasilev — FPGA · ML Systems · AI Agents
+# Dmitrii Vasilev — Ternary AI · FPGA · Custom Number Formats
 
-> *I take a novel number format from an arXiv paper to silicon — and make the neural network **train itself** on the FPGA. Math → spec → RTL → silicon → on-device ML, solo, on a fully open-source flow.*
+> **I specialize in ternary models and designed GF-T — a ternary-native number format that beats comparable formats on benchmarks.**
+>
+> *I take that format from an arXiv paper to silicon — and make the neural network **train itself** on the FPGA. Math → spec → RTL → silicon → on-device ML, solo, on a fully open-source flow.*
 
 **Open to remote contract work** · Ko Samui, Thailand 🌴 · UTC+7
 
@@ -21,7 +23,7 @@
 ## 🔥 What I Do
 
 
-I build **hardware ML accelerators**, **custom number formats**, and **AI agent systems** — from RTL to silicon.
+I specialize in **ternary ML** — I design the number formats, the hardware that runs them, and the agent systems on top, from RTL to silicon.
 
 - ⚡ **FPGA RTL** — custom float arithmetic, matmul cores, open-source toolchain (Yosys / nextpnr / XVC)
 - 🧠 **ML Infrastructure** — CPU-optimized training, quantization, ternary neural nets in Rust
@@ -35,6 +37,7 @@ I build **hardware ML accelerators**, **custom number formats**, and **AI agent 
 
 | What | Numbers |
 |---|---|
+| **GF-T — best-in-class ternary format (mine)** | ternary-native GoldenFloat ladder (GF-T8/16/32) — **measured to beat comparable ternary formats** (≈3–5.5× vs tekum16, mid/far range) · no regime decode · native ternary exponent |
 | **Neural net that _trains itself_ on FPGA** | on-chip SGD · binary + 3-class classification **100% held-out** · 2-layer ReLU solves **XOR** · every node **bit-exact** spec→silicon · open flow |
 | GF16 4×4 matmul on FPGA | **323 MHz · 41.2 GOPS · 0 DSP48 · 0 latches** — running on hardware |
 | TinyTapeout SKY130 ASIC | GDS ✅ · GL test ✅ · Precheck ✅ — chip tape-out path confirmed |
