@@ -42,6 +42,7 @@ I specialize in **ternary ML** — I design the number formats, the hardware tha
 | GF16 4×4 matmul on FPGA | **323 MHz · 41.2 GOPS · 0 DSP48 · 0 latches** — running on hardware |
 | TinyTapeout SKY130 ASIC | GDS ✅ · GL test ✅ · Precheck ✅ — chip tape-out path confirmed |
 | Ternary LLM on $30 FPGA | **63 tok/s @ 1W** · 0 multipliers · open toolchain · [DOI](https://doi.org/10.5281/zenodo.18947017) |
+| **tri-net — full ternary network stack (OSI / TCP-IP analog)** | 133 `.t27` specs · ternary GF16 PHY · BPSK modem over AD9361 · ETX mesh routing · AEAD crypto (ChaCha20-Poly1305 / X25519) · every layer formally specified & FPGA-synthesizable · **proven device-to-device over the air** |
 
 ---
 
@@ -52,6 +53,15 @@ I specialize in **ternary ML** — I design the number formats, the hardware tha
 - **An 83-Format Numeric Catalog with Bit-Exact Conformance Vectors: A Vendor-Neutral Reference for FP8, BF16, MXFP4, and Microscaling Formats** — [arXiv:2606.09686](https://arxiv.org/abs/2606.09686)
 
 ---
+
+## 🏅 Hackathons & open-source
+
+- **Google DeepMind AGI Hackathon 2026** — [`agi-hackathon`](https://github.com/gHashTag/agi-hackathon) evaluation framework
+- **The Open League (TON)** — NeuroCalls meeting-analysis service
+- **186 repositories** — the **Trinity** ecosystem: ternary compute, FPGA, formal Coq/Rocq proofs, MCP servers, on-chain contracts
+
+---
+
 
 <details>
 <summary><b>💼 Services & rates</b> &nbsp;— click to expand</summary>
