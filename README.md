@@ -1,131 +1,91 @@
-# Dmitrii Vasilev — FPGA · ML Systems · AI Agents
+# Dmitrii Vasilev
 
-**Open to remote contract work** · Ko Samui, Thailand 🌴 · UTC+7
+### I take a novel number format from an arXiv paper to silicon — and make the neural network *train itself* on the FPGA.
 
-[![Available for Hire](https://img.shields.io/badge/✅%20Available-Remote%20Contract-brightgreen?style=for-the-badge)](mailto:admin@t27.dev)
+Math → formal spec → RTL → FPGA/ASIC → on-device ML → formal proof. Solo, on a fully open-source flow.
+
+**Open to remote roles & contract work** · Ko Samui, Thailand 🌴 · UTC+7
+
+[![Available](https://img.shields.io/badge/✅%20Open%20to-Remote%20/%20Contract-brightgreen?style=for-the-badge)](mailto:admin@t27.dev)
 [![Email](https://img.shields.io/badge/Email-admin@t27.dev-blue?style=for-the-badge&logo=gmail)](mailto:admin@t27.dev)
 [![Telegram](https://img.shields.io/badge/Telegram-@t27__dev-2CA5E0?style=for-the-badge&logo=telegram)](https://t.me/t27_dev)
-[![Twitter](https://img.shields.io/badge/Twitter-@t27__dev-1DA1F2?style=for-the-badge&logo=twitter)](https://x.com/t27_dev)
+[![Twitter](https://img.shields.io/badge/X-@t27__dev-1DA1F2?style=for-the-badge&logo=twitter)](https://x.com/t27_dev)
 
 ---
 
-## 🔥 What I Do
+## What makes me different
 
-I build **hardware ML accelerators**, **custom number formats**, and **AI agent systems** — from RTL to silicon.
+Most people do **one** of: number-format research, RTL, ML infra, or formal methods. I do the **whole chain**, and I close the loop on real hardware:
 
-- ⚡ **FPGA RTL** — custom float arithmetic, matmul cores, open-source toolchain (Yosys / nextpnr / XVC)
-- 🧠 **ML Infrastructure** — CPU-optimized training, quantization, ternary neural nets in Rust
-- 🤖 **AI Agent Systems** — multi-agent orchestration, MCP, Claude, RAG pipelines
-- 📱 **React Native / TypeScript** — production apps and courses since 2016
+> **The network *is* the specification.** I write it in a tiny spec language (`.t27`), a compiler emits synthesizable Verilog, every node is proven **bit-exact** against an independent model, and it runs — and **learns** — on a live Artix-7. No Vivado, no Docker.
 
 ---
 
-## 🏆 Verified Results (2026)
+## 🏆 Verified on hardware (2026)
 
 | What | Numbers |
 |---|---|
+| **Neural net that *trains itself* on FPGA** | on-chip SGD · binary + 3-class classification **100% held-out** · 2-layer ReLU solves **XOR** · every node **bit-exact** spec→silicon · open flow |
 | GF16 4×4 matmul on FPGA | **323 MHz · 41.2 GOPS · 0 DSP48 · 0 latches** — running on hardware |
-| TinyTapeout SKY130 ASIC | GDS ✅ · GL test ✅ · Precheck ✅ — chip tape-out path confirmed |
-| Ternary LLM on $30 FPGA | **63 tok/s @ 1W** · 0 multipliers · open toolchain · [DOI](https://doi.org/10.5281/zenodo.18947017) |
+| Ternary LLM on a \$30 FPGA | **63 tok/s @ 1 W** · **0 multipliers** · open toolchain · [DOI](https://doi.org/10.5281/zenodo.18947017) |
+| TinyTapeout SKY130 ASIC | GDS ✅ · gate-level test ✅ · precheck ✅ — tape-out path confirmed |
+| Custom number format | **GoldenFloat** (φ-optimized ternary float) — arXiv preprints + measured to beat comparable ternary formats |
+
+*Full open-source silicon flow: Yosys · nextpnr-xilinx · prjxray · openFPGALoader · iverilog — built natively on macOS arm64.*
 
 ---
 
-## 💼 Services
+## 🔧 Selected work
 
-| Service | Stack | Rate |
+| Repo | What it is | Stack |
 |---|---|---|
-| FPGA RTL design & verification | Verilog, Yosys, nextpnr, openXC7, iverilog | **$60–100 /hr** |
-| ML infra & custom float formats | Rust, Python, GF16, ternary quantization | **$60–90 /hr** |
-| AI agent architecture | Claude, MCP, RAG, multi-agent orchestration | **$50–80 /hr** |
-| React Native / TypeScript | RN, GraphQL, Supabase, Cloudflare Workers | **$40–70 /hr** |
-| Technical consulting / architecture review | ML systems, FPGA, distributed compute | **$100+ /hr** |
-
-> 📩 **[admin@t27.dev](mailto:admin@t27.dev)** · **[Telegram @t27_dev](https://t.me/t27_dev)** · Response within a few hours
+| **[t27](https://github.com/gHashTag/t27)** | Spec-first ternary language: `.t27` → Verilog / Rust / C, bit-exact, test-driven | Zig |
+| **[trinity-fpga](https://github.com/gHashTag/trinity-fpga)** | Open FPGA synthesis infra — RTL to bitstream without vendor tools | Zig / Verilog |
+| **[zig-golden-float](https://github.com/gHashTag/zig-golden-float)** | GoldenFloat16 — φ-optimized ML number formats | Zig |
+| **[trinity-s3ai](https://github.com/gHashTag/trinity-s3ai)** | Hardware-verified research + **Coq/Rocq** machine-checked proofs | Rocq |
+| **[tri-net](https://github.com/gHashTag/tri-net)** | Ternary-native mesh network — routing + AEAD crypto, spec-first (OSI-style stack in `.t27`) | Rust |
+| **[trinity](https://github.com/gHashTag/trinity)** | The Trinity compute stack (ternary / φ-structured) | Zig |
 
 ---
 
-## 🛠 Technical Stack
+## 🧭 Where I fit
+
+- **Deep-tech / hardware-AI R&D** — number formats, quantization, BitNet-class accelerators, edge inference & on-device training
+- **RTL / FPGA & open silicon** — spec-driven Verilog, verification, Yosys/nextpnr/prjxray/TinyTapeout flows
+- **Formal-methods-adjacent systems** — spec-first design, bit-exact conformance, Coq proofs
+- **Systems in Rust / Zig** — mesh networking, crypto framing, compilers
+- **AI agent systems** — multi-agent orchestration, MCP, RAG (I ship with them daily)
+- *Bonus:* 10 yrs communicating this stuff — ran a JS school ([JS Camp](https://github.com/gHashTag/jscamp)), React Native courses, and write the papers myself.
+
+---
+
+## 💼 Engagements
+
+| Track | Best for | Rate |
+|---|---|---|
+| FPGA RTL design & verification | Verilog · Yosys · nextpnr · openXC7 · iverilog | **\$60–100/hr** |
+| ML infra & custom float formats | Rust · Python · GF16 · ternary quantization | **\$60–90/hr** |
+| Deep-tech research collaboration | novel arithmetic, edge-AI, formal specs | *let's talk* |
+| AI agent architecture | Claude · MCP · RAG · multi-agent | **\$50–80/hr** |
+| Architecture / technical review | ML systems · FPGA · distributed compute | **\$100+/hr** |
+
+📩 **[admin@t27.dev](mailto:admin@t27.dev)** · **[Telegram @t27_dev](https://t.me/t27_dev)** · replies within a few hours
+
+---
+
+## 🛠 Stack
 
 ```
-FPGA / Hardware    Verilog · Yosys · nextpnr · prjxray · openXC7 · XVC/JTAG
-                   openFPGALoader · Vivado · iverilog · SKY130 PDK · TinyTapeout
+Hardware      Verilog · Yosys · nextpnr · prjxray · openXC7 · openFPGALoader
+              iverilog · JTAG/XVC · SKY130 PDK · TinyTapeout · GF16 float
 
-Systems / Research Rust · Zig · Coq · LaTeX · GF16 custom float · ternary logic
-                   FPGA-validated arithmetic · open silicon flow
+Systems       Rust · Zig · Coq/Rocq · LaTeX · ternary logic · spec→silicon
+              mesh networking · AEAD crypto · compilers
 
-AI / ML            Claude Code · MCP · RAG · multi-agent systems · LLM training
-                   CPU-optimized inference · neural net quantization
+AI / ML       on-device training · quantization · Claude Code · MCP · RAG
+              multi-agent orchestration · CPU-optimized inference
 
-Web / Mobile       TypeScript · React Native · React · Node.js · GraphQL
-                   Supabase · Cloudflare Workers · Gleam
-
-Blockchain / Web3  Solana · Ethereum · ERC-20 · DeFi · DAO tokenomics
+Web / Mobile  TypeScript · React Native · React · Node · GraphQL · Supabase
 ```
 
----
-
-## 📂 Key Projects
-
-| Repo | Description |
-|---|---|
-| [trinity-fpga](https://github.com/gHashTag/trinity-fpga) | GF16 matmul FPGA core — 323 MHz, TinyTapeout ASIC, ring oscillator clock |
-| [tt-trinity-gf16](https://github.com/gHashTag/tt-trinity-gf16) | TinyTapeout TTSKY26a submission — GDS ✅ GL test ✅ Precheck ✅ |
-| [zig-golden-float](https://github.com/gHashTag/zig-golden-float) | GF16 / TF3 custom float formats — bias=31, phi-structured |
-| [t27](https://github.com/gHashTag/t27) | Spec-first language for ternary compute — 31 rings, [DOI](https://doi.org/10.5281/zenodo.19456875) |
-| [trinity](https://github.com/gHashTag/trinity) | `tri` CLI · VSA · BitNet LLM · DePIN mesh inference |
-| [trios](https://github.com/gHashTag/trios) | PhD Golden Chain — 42 chapters, golden-ratio physics constants |
-| [trios-railway](https://github.com/gHashTag/trios-railway) | Railway MCP · IGLA orchestration in Rust |
-| [trinity-clara](https://github.com/gHashTag/trinity-clara) | DARPA CLARA proposal · 84 Coq proofs |
-
----
-
-## 📈 GitHub
-
-[![Repos](https://img.shields.io/badge/Repositories-175%20total-blue?style=flat-square&logo=github)](https://github.com/gHashTag?tab=repositories)
-[![Public](https://img.shields.io/badge/Public-151-blue?style=flat-square&logo=github)](https://github.com/gHashTag?tab=repositories)
-[![Followers](https://img.shields.io/badge/Followers-82-lightgrey?style=flat-square&logo=github)](https://github.com/gHashTag?tab=followers)
-[![Since](https://img.shields.io/badge/GitHub%20since-2014-informational?style=flat-square&logo=github)](https://github.com/gHashTag)
-
-**175 repos (151 public + 24 private) · 82 followers · on GitHub since 2014**
-
-**Zenodo DOIs:**
-- [10.5281/zenodo.19456875](https://doi.org/10.5281/zenodo.19456875) — t27 language spec
-- [10.5281/zenodo.19227879](https://doi.org/10.5281/zenodo.19227879) — Trinity v9.0
-- [10.5281/zenodo.18947017](https://doi.org/10.5281/zenodo.18947017) — FPGA autoregressive LLM
-
----
-
-## 🧾 Experience
-
-| Period | Role |
-|---|---|
-| 2026 – now | FPGA/ML Research Engineer — GF16 matmul, TinyTapeout silicon, trinity-fpga |
-| 2025 – now | VibeCoder Consultant @ [Vibee](https://999-web.vercel.app/academy) — AI agents, multi-agent architectures |
-| 2024 – now | Founder — NeuroBlogger · NeuroCalls — voice & content AI agents |
-| 2022–2023 | Senior React Native Developer @ HAQQ (UAE) — Islamic blockchain, team of 8 |
-| 2016 – now | Founder — JS CAMP · JavaScript / React Native school |
-| 2015 – now | Founder — LEELA Chakra AI · App Store + Google Play |
-
----
-
-## 🎓 Education
-
-- **PhD in progress** — *Golden Chain: Unification of Physical Constants via Golden Ratio* (2026–)
-- **State University of Management, Moscow** — Management (2006)
-- **AWS Community Builders** member
-
----
-
-## 📬 Contact
-
-| | |
-|---|---|
-| 📧 Email | [admin@t27.dev](mailto:admin@t27.dev) |
-| 💬 Telegram | [@t27_dev](https://t.me/t27_dev) |
-| 🐦 Twitter/X | [@t27_dev](https://x.com/t27_dev) |
-| 📞 Phone | +66 (96) 2401-4170 |
-| 📍 Location | Ko Samui, Thailand 🇹🇭 · Remote worldwide |
-
----
-
-<sub>*φ² + φ⁻² = 3 · Building hardware that thinks*</sub>
+<sub>φ² + 1/φ² = 3 · Trinity</sub>
