@@ -1,6 +1,6 @@
 # Dmitrii Vasilev — Curriculum Vitae
 
-**FPGA · ML Systems · AI Agents** · Ko Samui, Thailand 🇹🇭 · Remote worldwide (UTC+7)
+**Ternary AI · FPGA · Custom Number Formats** · Ko Samui, Thailand 🇹🇭 · Remote worldwide (UTC+7)
 📧 [admin@t27.dev](mailto:admin@t27.dev) · 💬 [Telegram @t27_dev](https://t.me/t27_dev) · 🐦 [X @t27_dev](https://x.com/t27_dev) · 📞 +66 (96) 2401-4170
 
 > I take a novel number format from an arXiv paper to silicon — and make the neural network **train itself** on the FPGA. Math → formal spec → RTL → FPGA/ASIC → on-device ML → machine-checked proof. Solo, on a fully open-source flow.
@@ -9,7 +9,7 @@
 
 ## Summary
 
-Hardware-AI / systems research engineer who owns the **whole chain**: number-format research, spec-first RTL, FPGA/ASIC bring-up, on-device ML, and formal verification. I invented the **GoldenFloat** φ-derived float family (arXiv), built a spec-first compiler (`.t27` → Verilog, bit-exact), and proved a neural network that **trains itself on a live Artix-7** — using only open-source tools (Yosys / nextpnr / prjxray), no Vivado, no Docker. 10+ years shipping and teaching software (JS school, React Native, AI agents).
+Ternary-AI systems research engineer who **specializes in ternary models** and owns the **whole chain**: number-format research, spec-first RTL, FPGA/ASIC bring-up, on-device ML, and formal verification. I designed **GF-T** — a ternary-native float format **measured to beat comparable ternary formats on benchmarks** (≈3–5.5× vs tekum16) — and the broader **GoldenFloat** φ-derived family (arXiv); built a spec-first compiler (`.t27` → Verilog, bit-exact), and proved a neural network that **trains itself on a live Artix-7** — using only open-source tools (Yosys / nextpnr / prjxray), no Vivado, no Docker. 10+ years shipping and teaching software (JS school, React Native, AI agents).
 
 **Open to:** remote **hardware-AI · ML-systems · FPGA/RTL** roles — full-time or contract.
 
@@ -18,6 +18,7 @@ Hardware-AI / systems research engineer who owns the **whole chain**: number-for
 ## Verified results (2026, on hardware)
 
 - **Neural net that trains itself on FPGA** — on-chip SGD; binary + 3-class classification **100% held-out**; 2-layer ReLU solves **XOR**; every node **bit-exact** from `.t27` spec to silicon; open-source flow.
+- **GF-T — best-in-class ternary number format (mine)** — ternary-native GoldenFloat ladder (GF-T8/16/32), measured to beat comparable ternary formats (≈3–5.5× vs tekum16), no regime decode, native ternary exponent.
 - **GF16 4×4 matmul on FPGA** — **323 MHz · 41.2 GOPS · 0 DSP48 · 0 latches**, running on hardware.
 - **Ternary LLM on a \$30 FPGA** — **63 tok/s @ 1 W · 0 multipliers**, open toolchain — [DOI 10.5281/zenodo.18947017](https://doi.org/10.5281/zenodo.18947017).
 - **TinyTapeout SKY130 ASIC** — GDS ✅ · gate-level test ✅ · precheck ✅ (tape-out path confirmed).
