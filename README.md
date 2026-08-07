@@ -58,6 +58,7 @@ I specialize in **ternary ML** — I design the number formats, the hardware tha
 
 - **Google DeepMind AGI Hackathon 2026** — [`agi-hackathon`](https://github.com/gHashTag/agi-hackathon) evaluation framework
 - **The Open League (TON)** — NeuroCalls meeting-analysis service
+- **OpenAI Parameter Golf** — competition entry with novel **GF16 quantization** (Trinity Cognitive Stack): ~50% weight compression · ~3e-5 roundtrip error — [`parameter-golf-trinity`](https://github.com/gHashTag/parameter-golf-trinity)
 - **186 repositories** — the **Trinity** ecosystem: ternary compute, FPGA, formal Coq/Rocq proofs, MCP servers, on-chain contracts
 
 ---
