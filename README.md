@@ -11,8 +11,8 @@
 
 📄 **Full CV / resume:** [CV.md](./CV.md)
 
-[![Available for Hire](https://img.shields.io/badge/✅%20Available-Remote%20Contract-brightgreen?style=for-the-badge)](mailto:admin@t27.dev)
-[![Email](https://img.shields.io/badge/Email-admin@t27.dev-blue?style=for-the-badge&logo=gmail)](mailto:admin@t27.dev)
+[![Available for Hire](https://img.shields.io/badge/✅%20Available-Remote%20Contract-brightgreen?style=for-the-badge)](mailto:admin@t27.ai)
+[![Email](https://img.shields.io/badge/Email-admin@t27.ai-blue?style=for-the-badge&logo=gmail)](mailto:admin@t27.ai)
 [![Telegram](https://img.shields.io/badge/Telegram-@t27__dev-2CA5E0?style=for-the-badge&logo=telegram)](https://t.me/t27_dev)
 [![Twitter](https://img.shields.io/badge/Twitter-@t27__dev-1DA1F2?style=for-the-badge&logo=twitter)](https://x.com/t27_dev)
 [![arXiv](https://img.shields.io/badge/arXiv-2606.05017-b31b1b?style=for-the-badge&logo=arxiv)](https://arxiv.org/abs/2606.05017)
@@ -37,7 +37,7 @@ number yourself without a vendor licence**.
 - 🎓 **[t27.ai/course](https://t27.ai/course)** — the same method taught: train a neural network on an FPGA
 - 💵 From **$300** per core · 3–5 working days · **first module free**
 - 🔒 Your sources are never published or reused, and are deleted on request. NDA welcome.
-- 📬 **[admin@t27.dev](mailto:admin@t27.dev?subject=Hardware%20verification%20request)**
+- 📬 **[admin@t27.ai](mailto:admin@t27.ai?subject=Hardware%20verification%20request)**
 
 *Useful if you publish open-source IP, are preparing a tape-out, or need "measured on hardware"
 numbers for a paper instead of simulation-only results.*
@@ -103,7 +103,7 @@ I specialize in **ternary ML** — I design the number formats, the hardware tha
 | React Native / TypeScript | RN, GraphQL, Supabase, Cloudflare Workers | **$40–70 /hr** |
 | Technical consulting / architecture review | ML systems, FPGA, distributed compute | **$100+ /hr** |
 
-> 📩 **[admin@t27.dev](mailto:admin@t27.dev)** · **[Telegram @t27_dev](https://t.me/t27_dev)** · Response within a few hours
+> 📩 **[admin@t27.ai](mailto:admin@t27.ai)** · **[Telegram @t27_dev](https://t.me/t27_dev)** · Response within a few hours
 
 </details>
 
@@ -211,7 +211,7 @@ Blockchain / Web3  Solana · Ethereum · ERC-20 · DeFi · DAO tokenomics
 
 | | |
 |---|---|
-| 📧 Email | [admin@t27.dev](mailto:admin@t27.dev) |
+| 📧 Email | [admin@t27.ai](mailto:admin@t27.ai) |
 | 💬 Telegram | [@t27_dev](https://t.me/t27_dev) |
 | 🐦 Twitter/X | [@t27_dev](https://x.com/t27_dev) |
 | 📞 Phone | +66 (96) 2401-4170 |
