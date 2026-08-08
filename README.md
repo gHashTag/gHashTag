@@ -30,10 +30,11 @@ resource usage, a latch-free check, and the bitstream — produced on a fully op
 (Yosys · nextpnr-xilinx · prjxray · openFPGALoader · iverilog), so **you can re-run every
 number yourself without a vendor licence**.
 
-- 🌐 **[t27.ai/#/verification](https://t27.ai/#/verification)** — full details, scope and terms
+- 🌐 **[t27.ai/verification](https://t27.ai/verification)** — full details, scope and terms
 - 📄 **[Read a sample report](https://github.com/gHashTag/trinity/blob/main/docs/verification/SAMPLE-REPORT.md)** — real GF16 4×4 matmul on XC7A200T
-- 📊 **[t27.ai/#/proof](https://t27.ai/#/proof)** — every measured result, and how it was verified
-- 🔧 **[t27.ai/#/ip](https://t27.ai/#/ip)** — license a core that has already been to silicon
+- 📊 **[t27.ai/proof](https://t27.ai/proof)** — every measured result, and how it was verified
+- 🔧 **[t27.ai/ip](https://t27.ai/ip)** — license a core that has already been to silicon
+- 🎓 **[t27.ai/course](https://t27.ai/course)** — the same method taught: train a neural network on an FPGA
 - 💵 From **$300** per core · 3–5 working days · **first module free**
 - 🔒 Your sources are never published or reused, and are deleted on request. NDA welcome.
 - 📬 **[admin@t27.dev](mailto:admin@t27.dev?subject=Hardware%20verification%20request)**
