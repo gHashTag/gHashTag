@@ -1,6 +1,6 @@
 # Dmitrii Vasilev — Ternary AI · FPGA · Custom Number Formats
 
-> **I specialize in ternary models and designed GF-T — a ternary-native number format that beats comparable formats on benchmarks.**
+> **I specialize in ternary models and designed TNF (Ternary Network Float) — a fixed-field ternary format measured at 2.4-6.4x over tapered formats on a ternary network.**
 >
 > *I take that format from an arXiv paper to silicon — and make the neural network **train itself** on the FPGA. Math → spec → RTL → silicon → on-device ML, solo, on a fully open-source flow.*
 
@@ -61,11 +61,11 @@ I specialize in **ternary ML** — I design the number formats, the hardware tha
 
 | What | Numbers |
 |---|---|
-| **GF-T — best-in-class ternary format (mine)** | ternary-native GoldenFloat ladder (GF-T8/16/32) — **measured to beat comparable ternary formats** (≈3–5.5× vs tekum16, mid/far range) · no regime decode · native ternary exponent |
+| **TNF — Ternary Network Float (mine)** | fixed-field ternary format — **2.4-6.4x over tapered formats**, one measurement path on XC7A200T across 18 formats · no regime decode. Not a claim to be the best format overall: int8 is ahead by ~3%, and TNF exponent decode costs the same 32 LUT as plain binary. |
 | **Neural net that _trains itself_ on FPGA** | on-chip SGD · binary + 3-class classification **100% held-out** · 2-layer ReLU solves **XOR** · every node **bit-exact** spec→silicon · open flow |
 | GF16 4×4 matmul on FPGA | **323 MHz · 41.2 GOPS · 0 DSP48 · 0 latches** — running on hardware |
 | TinyTapeout SKY130 ASIC | GDS ✅ · GL test ✅ · Precheck ✅ — chip tape-out path confirmed |
-| Ternary LLM on $30 FPGA | **63 tok/s @ 1W** · 0 multipliers · open toolchain · [DOI](https://doi.org/10.5281/zenodo.18947017) |
+| Ternary LLM on $30 FPGA | **63 tok/s @ 1W** · multiplier-free because the *network* is ternary, not because of the format · open toolchain · [DOI](https://doi.org/10.5281/zenodo.18947017) |
 | **tri-net — full ternary network stack (OSI / TCP-IP analog)** | 133 `.t27` specs · ternary GF16 PHY · BPSK modem over AD9361 · ETX mesh routing · AEAD crypto (ChaCha20-Poly1305 / X25519) · every layer formally specified & FPGA-synthesizable · **proven device-to-device over the air** |
 
 ---
