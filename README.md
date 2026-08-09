@@ -13,7 +13,7 @@
 
 [![Available for Hire](https://img.shields.io/badge/✅%20Available-Remote%20Contract-brightgreen?style=for-the-badge)](mailto:admin@t27.ai)
 [![Email](https://img.shields.io/badge/Email-admin@t27.ai-blue?style=for-the-badge&logo=gmail)](mailto:admin@t27.ai)
-[![Telegram](https://img.shields.io/badge/Telegram-@t27__dev-2CA5E0?style=for-the-badge&logo=telegram)](https://t.me/t27_dev)
+[![Telegram](https://img.shields.io/badge/Telegram-@t27__lang-2CA5E0?style=for-the-badge&logo=telegram)](https://t.me/t27_lang)
 [![Twitter](https://img.shields.io/badge/Twitter-@t27__dev-1DA1F2?style=for-the-badge&logo=twitter)](https://x.com/t27_dev)
 [![arXiv](https://img.shields.io/badge/arXiv-2606.05017-b31b1b?style=for-the-badge&logo=arxiv)](https://arxiv.org/abs/2606.05017)
 [![arXiv](https://img.shields.io/badge/arXiv-2606.09686-b31b1b?style=for-the-badge&logo=arxiv)](https://arxiv.org/abs/2606.09686)
@@ -84,7 +84,7 @@ I specialize in **ternary ML** — I design the number formats, the hardware tha
 - **The Open League (TON)** — NeuroCalls meeting-analysis service
 - **OpenAI Parameter Golf** — competition entry with novel **GF16 quantization** (Trinity Cognitive Stack): ~50% weight compression · ~3e-5 roundtrip error — [`parameter-golf-trinity`](https://github.com/gHashTag/parameter-golf-trinity)
 - **DARPA CLARA** (PA-25-07-02) — submission: Trinity Cognitive Stack; 10 CLARA reasoning gaps realized in open-RTL silicon (TinyTapeout SKY130, 3 chips) — [`trinity-clara`](https://github.com/gHashTag/trinity-clara)
-- **186 repositories** — the **Trinity** ecosystem: ternary compute, FPGA, formal Coq/Rocq proofs, MCP servers, on-chain contracts
+- **187 public repositories** — the **Trinity** ecosystem: ternary compute, FPGA, formal Coq/Rocq proofs, MCP servers, on-chain contracts
 
 ---
 
@@ -157,17 +157,21 @@ Blockchain / Web3  Solana · Ethereum · ERC-20 · DeFi · DAO tokenomics
 ## 📈 GitHub
 
 
-[![Repos](https://img.shields.io/badge/Repositories-210%20total-blue?style=flat-square&logo=github)](https://github.com/gHashTag?tab=repositories)
-[![Public](https://img.shields.io/badge/Public-186-blue?style=flat-square&logo=github)](https://github.com/gHashTag?tab=repositories)
-[![Followers](https://img.shields.io/badge/Followers-86-lightgrey?style=flat-square&logo=github)](https://github.com/gHashTag?tab=followers)
+[![Repos](https://img.shields.io/badge/Repositories-217%20total-blue?style=flat-square&logo=github)](https://github.com/gHashTag?tab=repositories)
+[![Public](https://img.shields.io/badge/Public-187-blue?style=flat-square&logo=github)](https://github.com/gHashTag?tab=repositories)
+[![Followers](https://img.shields.io/badge/Followers-89-lightgrey?style=flat-square&logo=github)](https://github.com/gHashTag?tab=followers)
 [![Since](https://img.shields.io/badge/GitHub%20since-2014-informational?style=flat-square&logo=github)](https://github.com/gHashTag)
 
-**210 repos (186 public + 24 private) · 86 followers · on GitHub since 2014**
+**217 repos (187 public + 30 private) · 89 followers · on GitHub since 2014**
+
+> **Canonical resource list:** [t27.ai/#/resources](https://t27.ai/#/resources) — every paper, DOI,
+> upstream patch, channel and identity, each with the date it was last verified. If this README
+> and that page disagree, the page is right.
 
 **Zenodo DOIs:**
-- [10.5281/zenodo.19456875](https://doi.org/10.5281/zenodo.19456875) — t27 language spec
-- [10.5281/zenodo.19227879](https://doi.org/10.5281/zenodo.19227879) — Trinity v9.0
-- [10.5281/zenodo.18947017](https://doi.org/10.5281/zenodo.18947017) — FPGA autoregressive LLM
+- [10.5281/zenodo.19456875](https://doi.org/10.5281/zenodo.19456875) — GoldenFloat: φ-Optimal Floating-Point Formats for Ternary Computing (T27), v0.1.0
+- [10.5281/zenodo.19227879](https://doi.org/10.5281/zenodo.19227879) — Trinity S³AI Framework — Complete Research Collection v5.0
+- [10.5281/zenodo.18947017](https://doi.org/10.5281/zenodo.18947017) — Trinity v2.0.2 — FPGA Autoregressive Ternary LLM
 
 </details>
 
