@@ -218,7 +218,7 @@ Blockchain / Web3  Solana · Ethereum · ERC-20 · DeFi · DAO tokenomics
 | 📧 Email | [admin@t27.ai](mailto:admin@t27.ai) |
 | 💬 Telegram | [@t27_dev](https://t.me/t27_dev) |
 | 🐦 Twitter/X | [@t27_dev](https://x.com/t27_dev) |
-| 📞 Phone | +66 (96) 2401-4170 |
+| 📞 Phone | +66 62 401 4170 |
 | 📍 Location | Ko Samui, Thailand 🇹🇭 · Remote worldwide |
 
 ---
