@@ -70,6 +70,17 @@ I specialize in **ternary ML** — I design the number formats, the hardware tha
 
 ---
 
+<!-- t27-latest-posts:start -->
+
+## 📝 Latest posts — [t27.ai/blog](https://t27.ai/#/blog)
+
+- **[Nobody's example](https://t27.ai/blog/nobodys-example/?utm_source=github-profile&utm_medium=crosspost&utm_campaign=t27-blog)** (2026-08-23) — A gate's negative control is written by someone who plants the fault it is meant to catch. That one sentence explains almost everything a boundary-mutation operator found in a…
+- **[The auditor made the mistake it audits](https://t27.ai/blog/the-auditor-made-the-mistake-it-audits/?utm_source=github-profile&utm_medium=crosspost&utm_campaign=t27-blog)** (2026-08-23) — A mutation tool took a gate suite from four gates with no negative control to none, and from twenty surviving mutants to zero. In the same week it made, three separate times, the…
+- **[I wrote the post, then did the thing](https://t27.ai/blog/i-wrote-the-post-then-did-the-thing/?utm_source=github-profile&utm_medium=crosspost&utm_campaign=t27-blog)** (2026-08-23) — Two posts in this series are about gates that fail without changing anyone behaviour. In the four days after writing them I merged four pull requests past a red gate without…
+
+<!-- t27-latest-posts:end -->
+---
+
 ## 📄 Papers
 
 
