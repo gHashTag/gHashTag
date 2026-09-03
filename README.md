@@ -2,7 +2,7 @@
 
 > **I specialize in ternary models and designed TNF (Ternary Network Float) — a fixed-field ternary format measured at 2.4-6.4x over tapered formats on a ternary network.**
 >
-> *I take that format from an arXiv paper to silicon — and make the neural network **train itself** on the FPGA. Math → spec → RTL → silicon → on-device ML, solo, on a fully open-source flow.*
+> *I take that format from an arXiv paper to live FPGA hardware (Artix-7) — and make the neural network **train itself** on the FPGA. Math → spec → RTL → live FPGA hardware → on-device ML, built end-to-end in the open, on a fully open-source flow.*
 
 **Open to remote contract work** · Ko Samui, Thailand 🌴 · UTC+7
 
@@ -33,9 +33,9 @@ number yourself without a vendor licence**.
 - 🌐 **[t27.ai/verification](https://t27.ai/verification)** — full details, scope and terms
 - 📄 **[Read a sample report](https://github.com/gHashTag/trinity/blob/main/docs/verification/SAMPLE-REPORT.md)** — real GF16 4×4 matmul on XC7A200T
 - 📊 **[t27.ai/proof](https://t27.ai/proof)** — every measured result, and how it was verified
-- 🔧 **[t27.ai/ip](https://t27.ai/ip)** — license a core that has already been to silicon
+- 🔧 **[t27.ai/ip](https://t27.ai/ip)** — license a core that has already been proven on FPGA (Artix-7)
 - 🎓 **[t27.ai/course](https://t27.ai/course)** — the same method taught: train a neural network on an FPGA
-- 💵 From **$300** per core · 3–5 working days · **first module free**
+- 💵 **[SERVICES.md](./SERVICES.md)** — services and rates
 - 🔒 Your sources are never published or reused, and are deleted on request. NDA welcome.
 - 📬 **[admin@t27.ai](mailto:admin@t27.ai?subject=Hardware%20verification%20request)**
 
@@ -63,7 +63,7 @@ I specialize in **ternary ML** — I design the number formats, the hardware tha
 |---|---|
 | **TNF — Ternary Network Float (mine)** | fixed-field ternary format — **2.4-6.4x over tapered formats**, one measurement path on XC7A200T across 18 formats · no regime decode. Not a claim to be the best format overall: int8 is ahead by ~3%, and TNF exponent decode costs the same 32 LUT as plain binary. |
 | **Neural net that _trains itself_ on FPGA** | on-chip SGD · binary + 3-class classification **100% held-out** · 2-layer ReLU solves **XOR** · every node **bit-exact** spec→silicon · open flow |
-| GF16 4×4 matmul on FPGA | **323 MHz · 41.2 GOPS · 0 DSP48 · 0 latches** — running on hardware |
+| GF16 4×4 matmul on FPGA | **bit-exact vs independent oracle · 0 DSP48 · 0 latches** — running on hardware; earlier 323 MHz / 41.2 GOPS figures withdrawn after review  <!-- claim-guard: ignore-line — withdrawal notice, not a claim --> |
 | TinyTapeout SKY130 ASIC | GDS ✅ · GL test ✅ · Precheck ✅ — chip tape-out path confirmed |
 | Ternary LLM on $30 FPGA | **63 tok/s @ 1W** · multiplier-free because the *network* is ternary, not because of the format · open toolchain · [DOI](https://doi.org/10.5281/zenodo.18947017) |
 | **tri-net — full ternary network stack (OSI / TCP-IP analog)** | 133 `.t27` specs · ternary GF16 PHY · BPSK modem over AD9361 · ETX mesh routing · AEAD crypto (ChaCha20-Poly1305 / X25519) · every layer formally specified & FPGA-synthesizable · **proven device-to-device over the air** |
@@ -94,29 +94,12 @@ I specialize in **ternary ML** — I design the number formats, the hardware tha
 - **Google DeepMind AGI Hackathon 2026** — [`agi-hackathon`](https://github.com/gHashTag/agi-hackathon) evaluation framework
 - **The Open League (TON)** — NeuroCalls meeting-analysis service
 - **OpenAI Parameter Golf** — competition entry with novel **GF16 quantization** (Trinity Cognitive Stack): ~50% weight compression · ~3e-5 roundtrip error — [`parameter-golf-trinity`](https://github.com/gHashTag/parameter-golf-trinity)
-- **DARPA CLARA** (PA-25-07-02) — submission: Trinity Cognitive Stack; 10 CLARA reasoning gaps realized in open-RTL silicon (TinyTapeout SKY130, 3 chips) — [`trinity-clara`](https://github.com/gHashTag/trinity-clara)
-- **187 public repositories** — the **Trinity** ecosystem: ternary compute, FPGA, formal Coq/Rocq proofs, MCP servers, on-chain contracts
+- The **Trinity** ecosystem in public repositories: ternary compute, FPGA, formal Coq/Rocq proofs, MCP servers, on-chain contracts
 
 ---
 
 
-<details>
-<summary><b>💼 Services & rates</b> &nbsp;— click to expand</summary>
-
-## 💼 Services
-
-
-| Service | Stack | Rate |
-|---|---|---|
-| FPGA RTL design & verification | Verilog, Yosys, nextpnr, openXC7, iverilog | **$60–100 /hr** |
-| ML infra & custom float formats | Rust, Python, GF16, ternary quantization | **$60–90 /hr** |
-| AI agent architecture | Claude, MCP, RAG, multi-agent orchestration | **$50–80 /hr** |
-| React Native / TypeScript | RN, GraphQL, Supabase, Cloudflare Workers | **$40–70 /hr** |
-| Technical consulting / architecture review | ML systems, FPGA, distributed compute | **$100+ /hr** |
-
-> 📩 **[admin@t27.ai](mailto:admin@t27.ai)** · **[Telegram @t27_dev](https://t.me/t27_dev)** · Response within a few hours
-
-</details>
+**💼 Services:** see [SERVICES.md](./SERVICES.md)
 
 ---
 
@@ -151,14 +134,13 @@ Blockchain / Web3  Solana · Ethereum · ERC-20 · DeFi · DAO tokenomics
 
 | Repo | Description |
 |---|---|
-| [trinity-fpga](https://github.com/gHashTag/trinity-fpga) | GF16 matmul FPGA core — 323 MHz, TinyTapeout ASIC, ring oscillator clock |
+| [trinity-fpga](https://github.com/gHashTag/trinity-fpga) | GF16 matmul FPGA core — proven bit-exact on Artix-7; TinyTapeout-ready design, no die fabricated |
 | [tt-trinity-gf16](https://github.com/gHashTag/tt-trinity-gf16) | TinyTapeout TTSKY26a submission — GDS ✅ GL test ✅ Precheck ✅ |
 | [zig-golden-float](https://github.com/gHashTag/zig-golden-float) | GF16 / TF3 custom float formats — bias=31, phi-structured |
 | [t27](https://github.com/gHashTag/t27) | Spec-first language for ternary compute — 31 rings, [DOI](https://doi.org/10.5281/zenodo.19456875) |
 | [trinity](https://github.com/gHashTag/trinity) | `tri` CLI · VSA · BitNet LLM · DePIN mesh inference |
 | [trios](https://github.com/gHashTag/trios) | PhD Golden Chain — 42 chapters, golden-ratio physics constants |
 | [trios-railway](https://github.com/gHashTag/trios-railway) | Railway MCP · IGLA orchestration in Rust |
-| [trinity-clara](https://github.com/gHashTag/trinity-clara) | DARPA CLARA proposal · 84 Coq proofs |
 
 ---
 
