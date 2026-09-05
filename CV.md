@@ -9,13 +9,13 @@
 
 ## Summary
 
-Ternary-AI systems research engineer who **specializes in ternary models** and owns the **whole chain**: number-format research, spec-first RTL, FPGA/ASIC bring-up, on-device ML, and formal verification. I designed **GF-T** — a ternary-native float format **measured to beat comparable ternary formats on benchmarks** (≈3–5.5× vs tekum16) — and the broader **GoldenFloat** φ-derived family (arXiv); built a spec-first compiler (`.t27` → Verilog, bit-exact), and proved a neural network that **trains itself on a live Artix-7** — using only open-source tools (Yosys / nextpnr / prjxray), no Vivado, no Docker. 10+ years shipping and teaching software (JS school, React Native, AI agents).
+Ternary-AI systems research engineer who **specializes in ternary models** and owns the **whole chain**: number-format research, spec-first RTL, FPGA bring-up, on-device ML, and formal verification. I designed **GF-T** — a ternary-native float format **measured to beat comparable ternary formats on benchmarks** (≈3–5.5× vs tekum16) — and the broader **GoldenFloat** φ-derived family (arXiv); built a spec-first compiler (`.t27` → Verilog, bit-exact), and proved a neural network that **trains itself on a live Artix-7** — using only open-source tools (Yosys / nextpnr / prjxray), no Vivado, no Docker. 10+ years shipping and teaching software (JS school, React Native, AI agents).
 
 **Open to:** remote **hardware-AI · ML-systems · FPGA/RTL** roles — full-time or contract.
 
 ---
 
-## Verified results (2026, on hardware)
+## Verified results (2026)
 
 - **Neural net that trains itself on FPGA** — on-chip SGD; binary + 3-class classification **100% held-out**; 2-layer ReLU solves **XOR**; every node **bit-exact** from `.t27` spec to FPGA; open-source flow.
 - **GF-T — my ternary number format, measured against five competitor formats from their specifications** — ternary-native GoldenFloat ladder (GF-T8/16/32), measured to beat comparable ternary formats (≈3–5.5× vs tekum16), no regime decode, native ternary exponent.
@@ -67,7 +67,6 @@ Ternary-AI systems research engineer who **specializes in ternary models** and o
 | [tri-net](https://github.com/gHashTag/tri-net) | Ternary-native mesh network — routing + AEAD crypto, spec-first stack |
 | [tt-trinity-gf16](https://github.com/gHashTag/tt-trinity-gf16) | TinyTapeout TTSKY26a design — GDS ✅ GL test ✅ Precheck ✅; submission withdrawn and refunded (6 Aug 2026), no die fabricated |
 | [trinity](https://github.com/gHashTag/trinity) | `tri` CLI · VSA · BitNet LLM · DePIN mesh inference |
-| [trinity-clara](https://github.com/gHashTag/trinity-clara) | DARPA CLARA proposal · 84 Coq proofs |
 
 ---
 
