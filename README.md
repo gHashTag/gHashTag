@@ -2,12 +2,12 @@
 
 > **I specialize in ternary models and designed TNF (Ternary Network Float) — a fixed-field ternary format measured at 2.4-6.4x over tapered formats on a ternary network.**
 >
-> *I take that format from an arXiv paper to live FPGA hardware (Artix-7) — and make the neural network **train itself** on the FPGA. Math → spec → RTL → live FPGA hardware → on-device ML, built end-to-end in the open, on a fully open-source flow.*
+> *I take that format from a journal manuscript (Ternary Network Floats — under review, Microprocessors and Microsystems, Elsevier) to live FPGA hardware (Artix-7) — and make the neural network **train itself** on the FPGA. Math → spec → RTL → live FPGA hardware → on-device ML, built end-to-end in the open, on a fully open-source flow.*
 
 **Open to remote contract work** · Ko Samui, Thailand 🌴 · UTC+7
 
 **🎯 Looking for:** hardware-AI · ML-systems · FPGA / RTL roles — remote, full-time or contract
-**🔨 Currently:** proving on-device neural-net *training* on FPGA — `.t27` spec → Verilog → silicon, bit-exact
+**🔨 Currently:** proving on-device neural-net *training* on FPGA — `.t27` spec → Verilog → FPGA (Artix-7), bit-exact
 
 📄 **Full CV / resume:** [CV.md](./CV.md)
 
@@ -47,7 +47,7 @@ numbers for a paper instead of simulation-only results.*
 ## 🔥 What I Do
 
 
-I specialize in **ternary ML** — I design the number formats, the hardware that runs them, and the agent systems on top, from RTL to silicon.
+I specialize in **ternary ML** — I design the number formats, the hardware that runs them, and the agent systems on top, from RTL to FPGA hardware.
 
 - ⚡ **FPGA RTL** — custom float arithmetic, matmul cores, open-source toolchain (Yosys / nextpnr / XVC)
 - 🧠 **ML Infrastructure** — CPU-optimized training, quantization, ternary neural nets in Rust
@@ -62,11 +62,11 @@ I specialize in **ternary ML** — I design the number formats, the hardware tha
 | What | Numbers |
 |---|---|
 | **TNF — Ternary Network Float (mine)** | fixed-field ternary format — **2.4-6.4x over tapered formats**, one measurement path on XC7A200T across 18 formats · no regime decode. Not a claim to be the best format overall: int8 is ahead by ~3%, and TNF exponent decode costs the same 32 LUT as plain binary. |
-| **Neural net that _trains itself_ on FPGA** | on-chip SGD · binary + 3-class classification **100% held-out** · 2-layer ReLU solves **XOR** · every node **bit-exact** spec→silicon · open flow |
+| **Neural net that _trains itself_ on FPGA** | on-chip SGD · binary + 3-class classification **100% held-out** · 2-layer ReLU solves **XOR** · every node **bit-exact** spec→FPGA · open flow |
 | GF16 4×4 matmul on FPGA | **bit-exact vs independent oracle · 0 DSP48 · 0 latches** — running on hardware; earlier 323 MHz / 41.2 GOPS figures withdrawn after review  <!-- claim-guard: ignore-line — withdrawal notice, not a claim --> |
-| TinyTapeout SKY130 ASIC | GDS ✅ · GL test ✅ · Precheck ✅ — chip tape-out path confirmed |
+| TinyTapeout SKY130 design | GDS ✅ · GL test ✅ · Precheck ✅ — submissions TTSKY26a (withdrawn and refunded, 6 Aug 2026) and TTSKY26b (withdrawn before fabrication); no die exists. All hardware results are on the Artix-7 (XC7A200T) FPGA prototype. |
 | Ternary LLM on $30 FPGA | **63 tok/s @ 1W** · multiplier-free because the *network* is ternary, not because of the format · open toolchain · [DOI](https://doi.org/10.5281/zenodo.18947017) |
-| **tri-net — full ternary network stack (OSI / TCP-IP analog)** | 133 `.t27` specs · ternary GF16 PHY · BPSK modem over AD9361 · ETX mesh routing · AEAD crypto (ChaCha20-Poly1305 / X25519) · every layer formally specified & FPGA-synthesizable · **proven device-to-device over the air** |
+| **tri-net — full ternary network stack (OSI / TCP-IP analog)** | 113 `.t27` specs · ternary GF16 PHY · BPSK modem over AD9361 · ETX mesh routing · AEAD crypto (ChaCha20-Poly1305 / X25519) · every layer formally specified & FPGA-synthesizable · **proven device-to-device over the air** |
 
 ---
 
@@ -85,7 +85,8 @@ I specialize in **ternary ML** — I design the number formats, the hardware tha
 
 
 - **GoldenFloat: A Phi-Derived Static-Split Floating-Point Family from GF4 to GF1024 with a Lucas-Exact Integer Identity** — [arXiv:2606.05017](https://arxiv.org/abs/2606.05017)
-- **An 83-Format Numeric Catalog with Bit-Exact Conformance Vectors: A Vendor-Neutral Reference for FP8, BF16, MXFP4, and Microscaling Formats** — [arXiv:2606.09686](https://arxiv.org/abs/2606.09686)
+- **Golden Ruler: A Numeric Format Catalog with Bit-Exact Conformance Vectors for FP8, BF16, MXFP4, and Microscaling Formats** — [arXiv:2606.09686](https://arxiv.org/abs/2606.09686) (v3, announced 7 Sep 2026)
+- **Ternary Network Floats** — under review, Microprocessors and Microsystems (Elsevier), submitted 3 Sep 2026 — [source](https://github.com/gHashTag/trinity-fpga/tree/main/research/arxiv_tnf) · [artefacts](https://github.com/gHashTag/ternary-network-floats)
 
 ---
 
@@ -135,7 +136,7 @@ Blockchain / Web3  Solana · Ethereum · ERC-20 · DeFi · DAO tokenomics
 | Repo | Description |
 |---|---|
 | [trinity-fpga](https://github.com/gHashTag/trinity-fpga) | GF16 matmul FPGA core — proven bit-exact on Artix-7; TinyTapeout-ready design, no die fabricated |
-| [tt-trinity-gf16](https://github.com/gHashTag/tt-trinity-gf16) | TinyTapeout TTSKY26a submission — GDS ✅ GL test ✅ Precheck ✅ |
+| [tt-trinity-gf16](https://github.com/gHashTag/tt-trinity-gf16) | TinyTapeout TTSKY26a design — GDS ✅ GL test ✅ Precheck ✅; submission withdrawn and refunded (6 Aug 2026), no die fabricated |
 | [zig-golden-float](https://github.com/gHashTag/zig-golden-float) | GF16 / TF3 custom float formats — bias=31, phi-structured |
 | [t27](https://github.com/gHashTag/t27) | Spec-first language for ternary compute — 31 rings, [DOI](https://doi.org/10.5281/zenodo.19456875) |
 | [trinity](https://github.com/gHashTag/trinity) | `tri` CLI · VSA · BitNet LLM · DePIN mesh inference |
@@ -150,12 +151,11 @@ Blockchain / Web3  Solana · Ethereum · ERC-20 · DeFi · DAO tokenomics
 ## 📈 GitHub
 
 
-[![Repos](https://img.shields.io/badge/Repositories-217%20total-blue?style=flat-square&logo=github)](https://github.com/gHashTag?tab=repositories)
-[![Public](https://img.shields.io/badge/Public-187-blue?style=flat-square&logo=github)](https://github.com/gHashTag?tab=repositories)
-[![Followers](https://img.shields.io/badge/Followers-89-lightgrey?style=flat-square&logo=github)](https://github.com/gHashTag?tab=followers)
+[![Public](https://img.shields.io/badge/Public-106-blue?style=flat-square&logo=github)](https://github.com/gHashTag?tab=repositories)
+[![Followers](https://img.shields.io/badge/Followers-91-lightgrey?style=flat-square&logo=github)](https://github.com/gHashTag?tab=followers)
 [![Since](https://img.shields.io/badge/GitHub%20since-2014-informational?style=flat-square&logo=github)](https://github.com/gHashTag)
 
-**217 repos (187 public + 30 private) · 89 followers · on GitHub since 2014**
+**106 public repos · 91 followers (counted 2026-09-05) · on GitHub since 2014**
 
 > **Canonical resource list:** [t27.ai/#/resources](https://t27.ai/#/resources) — every paper, DOI,
 > upstream patch, channel and identity, each with the date it was last verified. If this README
@@ -178,7 +178,7 @@ Blockchain / Web3  Solana · Ethereum · ERC-20 · DeFi · DAO tokenomics
 
 | Period | Role |
 |---|---|
-| 2026 – now | FPGA/ML Research Engineer — GF16 matmul, TinyTapeout silicon, trinity-fpga |
+| 2026 – now | FPGA/ML Research Engineer — GF16 matmul on Artix-7, TinyTapeout design (withdrawn before fabrication), trinity-fpga |
 | 2025 – now | VibeCoder Consultant @ [Vibee](https://999-web.vercel.app/academy) — AI agents, multi-agent architectures |
 | 2024 – now | Founder — NeuroBlogger · NeuroCalls — voice & content AI agents |
 | 2022–2023 | Senior React Native Developer @ HAQQ (UAE) — Islamic blockchain, team of 8 |
