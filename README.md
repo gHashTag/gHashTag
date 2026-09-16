@@ -65,8 +65,8 @@ I specialize in **ternary ML** — I design the number formats, the hardware tha
 | **Neural net that _trains itself_ on FPGA** | on-chip SGD · binary + 3-class classification **100% held-out** · 2-layer ReLU solves **XOR** · every node **bit-exact** spec→FPGA · open flow |
 | GF16 4×4 matmul on FPGA | **bit-exact vs independent oracle · 0 DSP48 · 0 latches** — running on hardware; earlier 323 MHz / 41.2 GOPS figures withdrawn after review  <!-- claim-guard: ignore-line — withdrawal notice, not a claim --> |
 | TinyTapeout SKY130 design | GDS ✅ · GL test ✅ · Precheck ✅ — submissions TTSKY26a (withdrawn and refunded, 6 Aug 2026) and TTSKY26b (withdrawn before fabrication); no die exists. All hardware results are on the Artix-7 (XC7A200T) FPGA prototype. |
-| Ternary LLM on $30 FPGA | **63 tok/s @ 1W** · multiplier-free because the *network* is ternary, not because of the format · open toolchain · [DOI](https://doi.org/10.5281/zenodo.18947017) |
-| **tri-net — full ternary network stack (OSI / TCP-IP analog)** | 113 `.t27` specs · ternary GF16 PHY · BPSK modem over AD9361 · ETX mesh routing · AEAD crypto (ChaCha20-Poly1305 / X25519) · every layer formally specified & FPGA-synthesizable · **proven device-to-device over the air** |
+| Ternary LLM on $30 FPGA | 16 tokens at 50 MHz, ~467 ms total (~34 tok/s) per the report's own clock-cycle budget; the headline ~63 tok/s is that figure scaled to a 92 MHz post-route Fmax estimate, not a throughput that was run. ~60K params, untrained pattern-generated weights. No power measurement is recorded, so the ~1W is an estimate. Multiplier-free because the *network* is ternary, not because of the format · open toolchain · [DOI](https://doi.org/10.5281/zenodo.18947017) |
+| **tri-net — full ternary network stack (OSI / TCP-IP analog)** | 107 `.t27` specs · ternary GF16 PHY · BPSK modem over AD9361 · ETX mesh routing · AEAD crypto (ChaCha20-Poly1305 / X25519) · every layer formally specified & FPGA-synthesizable (synthesizable; no bitstream of ours is loaded on the nodes — the modem that carried the bytes ran in software on the ARM core) · **an 8-byte frame carried device-to-device over real radios at 2.4 GHz, recovered bit-exact** |
 
 ---
 
@@ -140,7 +140,7 @@ Blockchain / Web3  Solana · Ethereum · ERC-20 · DeFi · DAO tokenomics
 | [zig-golden-float](https://github.com/gHashTag/zig-golden-float) | GF16 / TF3 custom float formats — bias=31, phi-structured |
 | [t27](https://github.com/gHashTag/t27) | Spec-first language for ternary compute — 31 rings, [DOI](https://doi.org/10.5281/zenodo.19456875) |
 | [trinity](https://github.com/gHashTag/trinity) | `tri` CLI · VSA · BitNet LLM · DePIN mesh inference |
-| [trios](https://github.com/gHashTag/trios) | PhD Golden Chain — 42 chapters, golden-ratio physics constants |
+| [trios](https://github.com/gHashTag/trios) | Golden Chain monograph — 42 chapters, golden-ratio physics constants |
 | [trios-railway](https://github.com/gHashTag/trios-railway) | Railway MCP · IGLA orchestration in Rust |
 
 ---
@@ -151,11 +151,11 @@ Blockchain / Web3  Solana · Ethereum · ERC-20 · DeFi · DAO tokenomics
 ## 📈 GitHub
 
 
-[![Public](https://img.shields.io/badge/Public-106-blue?style=flat-square&logo=github)](https://github.com/gHashTag?tab=repositories)
-[![Followers](https://img.shields.io/badge/Followers-91-lightgrey?style=flat-square&logo=github)](https://github.com/gHashTag?tab=followers)
+[![Public](https://img.shields.io/badge/Public-114%20as%20of%202026--09--16-blue?style=flat-square&logo=github)](https://github.com/gHashTag?tab=repositories)
+[![Followers](https://img.shields.io/badge/Followers-94%20as%20of%202026--09--16-lightgrey?style=flat-square&logo=github)](https://github.com/gHashTag?tab=followers)
 [![Since](https://img.shields.io/badge/GitHub%20since-2014-informational?style=flat-square&logo=github)](https://github.com/gHashTag)
 
-**106 public repos · 91 followers (counted 2026-09-05) · on GitHub since 2014**
+**114 public repos · 94 followers (counted 2026-09-16) · on GitHub since 2014**
 
 > **Canonical resource list:** [t27.ai/#/resources](https://t27.ai/#/resources) — every paper, DOI,
 > upstream patch, channel and identity, each with the date it was last verified. If this README
@@ -190,12 +190,12 @@ Blockchain / Web3  Solana · Ethereum · ERC-20 · DeFi · DAO tokenomics
 ---
 
 <details>
-<summary><b>🎓 Education — PhD in progress · State Univ. of Management · AWS Community Builder</b> &nbsp;— click to expand</summary>
+<summary><b>🎓 Education — independent research monograph in progress · State Univ. of Management · AWS Community Builder</b> &nbsp;— click to expand</summary>
 
 ## 🎓 Education
 
 
-- **PhD in progress** — *Golden Chain: Unification of Physical Constants via Golden Ratio* (2026–)
+- **Independent research monograph in progress** — *Golden Chain: Unification of Physical Constants via Golden Ratio* (2026–), written on my own, with no institution behind it
 - **State University of Management, Moscow** — Management (2006)
 - **AWS Community Builders** member
 
